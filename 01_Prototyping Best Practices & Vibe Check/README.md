@@ -37,16 +37,30 @@ You will be required to submit a link to your GitHub, as well as screenshots of 
 Please evaluate your system on the following questions:
 
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner. 
-    - Aspect Tested:
+    - Aspect Tested: I tested the topic for semantics, correctness and formatting of the response.
+    - The semantics was meaningful and easy to understand from beginner perspective. The response only covered a very high level(classes an its properties,objects), but missed to elaborate on OOP's principles.
+    - It passed the correctness test. The analogy provided in the response is good from beginner perspective.
+    - The formatting is off in certain sections like, markdown script, text overlay the background response box.
 2. Read the following paragraph and provide a concise summary of the key points…
-    - Aspect Tested:
+    - Aspect Tested: I tested the topic for semantics, correctness and formatting of the response.
+    - The semantics is correct and captured key points of paragraph.
+    - It passed the correctness and formatting check.
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
-    - Aspect Tested:
+    - Aspect Tested:Tested for fictional, word count and formatting.
+    - The story generated is fictional and also illustrates to have occured in an unexpected place, example:'junkyard'
+    - The genrated story is 131 words which is between range of 100-150 as stated in prompt.
+    - The formatting check passed. To specify, broke down the story into three paragraphs, showed continuity and no markdown.
 4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
-    - Aspect Tested:
-5. Rewrite the following paragraph in a professional, formal tone…
-    - Aspect Tested:
+    - Aspect Tested:Tested for correctness, steps and formatting
+    - The match calculation is correct.
+    - An observation, we haven't asked the steps of calcualtion in the prompt, but it still provided it. It may be default behaviour of the model, but it can be controlled during prompting such as "Do not provide steps"
+    - The formatting is little off because of markdown.
+     Ex: [\frac{12}{4} = 3 \text{ packs}]
 
+5. Rewrite the following paragraph in a professional, formal tone…
+    - Aspect Tested:Tested for semantics and formatting
+    -  The semantics is still correct and relates to origianl text.The choice of words in the response is professional example:experienced ,next course of action,compelled etc.
+    - The formatting was correct.
 This "vibe check" now serves as a baseline, of sorts, to help understand what holes your application has.
 
 #### A Note on Vibe Checking
@@ -58,7 +72,7 @@ This "vibe check" now serves as a baseline, of sorts, to help understand what ho
 #### ❓Question #1:
 
 What are some limitations of vibe checking as an evaluation tool?
-##### ✅ Answer:
+##### ✅ Answer: It's good for initial validation and catch early errors. But, doesn't  necessarily helpful to cover essential cases. There is no uniformity such as vibe check may differ from one evaluator to other. There is also scope for bias, depending on their familiarty or context.It cannot be used as consistent tool for evaluation and cannot be scaled.
 
 ### 🚧 Advanced Build (OPTIONAL):
 
