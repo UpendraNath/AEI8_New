@@ -13,4 +13,5 @@ dependencies = [
     "langgraph>=0.6.7",
     "pymupdf>=1.26.4",
     "pyppeteer>=2.0.0",
+    "arxiv>=2.1.0",
 ]
