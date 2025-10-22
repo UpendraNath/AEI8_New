@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="e0683309-89ba-4804-887f-12fcaf59a2ca"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>Lidocaine Patch NovaPlus A200675</title>
+   <effectiveTime value="20250826"/>
+   <setId root="c18799cd-9e11-4196-9ab1-0a2a84585e56"/>
+   <versionNumber value="10"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="119723554" root="1.3.6.1.4.1.519.1"/>
+            <name>Actavis Pharma, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="70ff2cc0-4793-4f9f-b981-192ebc6d7a76"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20250826"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0591-2679" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Lidocaine</name>
+                        <formCode code="C42968" displayName="PATCH" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Lidocaine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="50"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="98PI200987" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LIDOCAINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="98PI200987" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LIDOCAINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="532B59J990" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYVINYL ALCOHOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8W8T17847W" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>UREA</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="285CYO341L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM POLYACRYLATE (8000 MW)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="K679OBS311" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBOXYMETHYLCELLULOSE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="73861X4K5F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYACRYLIC ACID (8000 MW)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="24H4NWX5CO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>KAOLIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="W4888I119H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TARTARIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="DO250MG0W6" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIHYDROXYALUMINUM AMINOACETATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z8IX2SC1OH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0591-2679-11" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43200" displayName="POUCH" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="30"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0591-2679-30" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20140701"/>
+                                          <high value="20261231"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA200675" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20140701"/>
+                              <high value="20261231"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" displayName="TOPICAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_32a74e9a-5e70-423e-94d2-d54bd4c02b1d">
+               <id root="fd47d5c1-e30e-4890-816e-6944fa7dc607"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Lidocaine Patch 5%<br/>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0ecaf73b-c131-49b7-96f6-4efb5cdd8405">
+               <id root="d368d5de-908f-4a66-ab23-2c9cd062df92"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>Lidocaine patch 5% is comprised of an adhesive material containing 5% lidocaine, USP, which is applied to a white non-woven polyethylene terephthalate (PET) material backing and covered with a transparent PET release liner. The release liner is removed prior to application to the skin. The size of the patch is 10 cm x 14 cm.</paragraph>
+                  <paragraph>Lidocaine, USP is chemically designated as acetamide, 2-(diethylamino)-N-(2,6- dimethylphenyl), has an octanol:water partition ratio of 43 at pH 7.4, and has the following structure:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Each adhesive patch contains 700 mg of lidocaine, USP (50 mg per gram adhesive) in an aqueous base. It also contains the following inactive ingredients: glycerin, D-sorbitol, propylene glycol, polyvinyl alcohol, urea, sodium polyacrylate, carboxymethylcellulose sodium, gelatin, polyacrylic acid, kaolin, tartaric acid, dihydroxyaluminum aminoacetate, methylparaben, propylparaben, and edetate disodium.</paragraph>
+               </text>
+               <effectiveTime value="20250826"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c22cfd87-6b1e-4388-8e9a-98a0bdfc7431">
+               <id root="331ffe62-0c37-40e2-ba6e-f2384cfd6698"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">CLINICAL PHARMACOLOGY</content>
+               </title>
+               <effectiveTime value="20250826"/>
+               <component>
+                  <section ID="LINK_2d4ed11a-dd9c-4a43-9439-8fae10f486b9">
+                     <id root="bf27efd3-0335-4de9-bb13-eaa8437847aa"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Pharmacodynamics</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Lidocaine is an amide-type local anesthetic agent and is suggested to stabilize neuronal membranes by inhibiting the ionic fluxes required for the initiation and conduction of impulses.</paragraph>
+                        <paragraph>The penetration of lidocaine into intact skin after application of lidocaine patch is sufficient to produce an analgesic effect, but less than the amount necessary to produce a complete sensory block.</paragraph>
+                     </text>
+                     <effectiveTime value="20250826"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c78d4d66-7808-417c-911a-e5f32f79b9af">
+                     <id root="6050822a-61a4-4eae-b31b-3f300ff61e32"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Pharmacokinetics</content>
+                        </content>
+                     </title>
+                     <effectiveTime value="20250826"/>
+                     <component>
+                        <section ID="LINK_415935c3-e0f3-487b-8c6b-10c9ba863dc2">
+                           <id root="a3c8e496-6e3a-4a4f-a43e-0c3d996f439a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Absorption: </content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The amount of lidocaine systemically absorbed from lidocaine patch is directly related to both the duration of application and the surface area over which it is applied. In a pharmacokinetic study, three lidocaine patches were applied over an area of 420 cm<sup>2</sup> of intact skin on the back of normal volunteers for 12 hours. Blood samples were withdrawn for determination of lidocaine concentration during the application and for 12 hours after removal of patches. The results are summarized in Table 1.</paragraph>
+                              <table>
+                                 <caption>Table 1 Absorption of lidocaine from Lidocaine Patch
+         
+    Normal volunteers (n= 15, 12-hour wearing time)</caption>
+                                 <col width="102"/>
+                                 <col width="101"/>
+                                 <col width="48"/>
+                                 <col width="74"/>
+                                 <col width="65"/>
+                                 <col width="44"/>
+                                 <tbody>
+                                    <tr>
+                                       <td valign="bottom">  Lidocaine Patch</td>
+                                       <td valign="bottom">  Application Site</td>
+                                       <td valign="bottom">  Area (cm<sup>2</sup>)</td>
+                                       <td>  Dose Absorbed (mg)</td>
+                                       <td valign="bottom">  C<sub>max</sub>
+                                          <br/>
+            (mcg/mL)</td>
+                                       <td valign="bottom">  T<sub>max</sub>
+                                          <br/>
+            (hr)</td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="bottom">  3 patches<br/>
+            (2100 mg)</td>
+                                       <td>  Back</td>
+                                       <td>  420</td>
+                                       <td>  64 ± 32</td>
+                                       <td valign="bottom">  0.13 ± 0.06</td>
+                                       <td>  11 hr</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>When lidocaine patch is used according to the recommended dosing instructions, only 3 ± 2% of the dose applied is expected to be absorbed. At least 95% (665 mg) of lidocaine will remain in a used patch. Mean peak blood concentration of lidocaine is about 0.13 mcg/mL (about 1/10 of the therapeutic concentration required to treat cardiac arrhythmias). Repeated application of three patches simultaneously for 12 hours (recommended maximum daily dose), once per day for three days, indicated that the lidocaine concentration does not increase with daily use. The mean plasma pharmacokinetic profile for the 15 healthy volunteers is shown in Figure 1.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Figure 1<br/>
+Mean lidocaine blood concentrations after three consecutive daily applications of three<br/>
+                                 </content>
+                                 <content styleCode="bold">lidocaine patches simultaneously for 12 hours per day in healthy volunteers (n = 15).</content>
+                              </paragraph>
+                              <renderMultiMedia referencedObject="MM2"/>
+                           </text>
+                           <effectiveTime value="20250826"/>
+                           <component>
+                              <observationMedia ID="MM2">
+                                 <text>1</text>
+                                 <value xsi:type="ED" mediaType="image/jpeg">
+                                    <reference value="image-2.jpg"/>
+                                 </value>
+                              </observationMedia>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_f0f913b7-d577-4204-b8df-fdf36513067c">
+                           <id root="f59373cc-8e68-40a1-9fdf-64497ed8b3a0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Distribution: </content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>When lidocaine is administered intravenously to healthy volunteers, the volume of distribution is 0.7 to 2.7 L/kg (mean 1.5 ± 0.6 SD, n=15). At concentrations produced by application of lidocaine patch, lidocaine is approximately 70% bound to plasma proteins, primarily alpha-1-acid glycoprotein. At much higher plasma concentrations (1 to 4 mcg/mL of free base), the plasma protein binding of lidocaine is concentration dependent. Lidocaine crosses the placental and blood brain barriers, presumably by passive diffusion.</paragraph>
+                           </text>
+                           <effectiveTime value="20250826"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_3bb46c25-9bad-4200-813d-1b2ceded9861">
+                           <id root="7b54390d-c34d-4b3f-80e7-215bbc2624c9"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Metabolism:</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>It is not known if lidocaine is metabolized in the skin. Lidocaine is metabolized rapidly by the liver to a number of metabolites, including monoethylglycinexylidide (MEGX) and glycinexylidide (GX), both of which have pharmacologic activity similar to, but less potent than that of lidocaine. A minor metabolite, 2, 6-xylidine, has unknown pharmacologic activity but is carcinogenic in rats. The blood concentration of this metabolite is negligible following application of lidocaine patch 5%. Following intravenous administration, MEGX and GX concentrations in serum range from 11 to 36% and from 5 to 11% of lidocaine concentrations, respectively.</paragraph>
+                           </text>
+                           <effectiveTime value="20250826"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_12711847-40d0-4a67-bfb6-198fea1ead9f">
+                           <id root="c5da1284-b149-4e25-90ff-e643345bf6cf"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Excretion: </content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Lidocaine and its metabolites are excreted by the kidneys. Less than 10% of lidocaine is excreted unchanged. The half-life of lidocaine elimination from the plasma following IV administration is 81 to 149 minutes (mean 107 ± 22 SD, n = 15). The systemic clearance is 0.33 to 0.90 L/min (mean 0.64 ± 0.18 SD, n = 15).</paragraph>
+                           </text>
+                           <effectiveTime value="20250826"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_5375a880-81e0-44bb-8491-4ab8bb4f0d29">
+               <id root="2325f039-737d-4779-9190-f4ae6ba3ac29"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>
+                  <content styleCode="bold">CLINICAL STUDIES</content>
+               </title>
+               <text>
+                  <paragraph>Single-dose treatment with lidocaine patch was compared to treatment with vehicle patch (without lidocaine), and to no treatment (observation only) in a double-blind, crossover clinical trial with 35 post-herpetic neuralgia patients. Pain intensity and pain relief scores were evaluated periodically for 12 hours. Lidocaine patch performed statistically better than vehicle patch in terms of pain intensity from 4 to 12 hours.</paragraph>
+                  <paragraph>Multiple-dose, two-week treatment with lidocaine patch was compared to vehicle patch (without lidocaine) in a double-blind, crossover clinical trial of withdrawal-type design conducted in 32 patients, who were considered as responders to the open-label use of lidocaine patch prior to the study. The constant type of pain was evaluated but not the pain induced by sensory stimuli (dysesthesia). Statistically significant differences favoring lidocaine patch were observed in terms of time to exit from the trial (14 versus 3.8 days at p-value less than 0.001), daily average pain relief, and patient’s preference of treatment. About half of the patients also took oral medication commonly used in the treatment of post-herpetic neuralgia. The extent of use of concomitant medication was similar in the two treatment groups.</paragraph>
+               </text>
+               <effectiveTime value="20250826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_be970df0-e9dd-49bf-8f3f-d6dcb5e058d1">
+               <id root="791aa49f-cfb7-4310-b6e4-003972141403"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">INDICATION AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>Lidocaine patch 5% is indicated for relief of pain associated with post-herpetic neuralgia. It should be applied only to <content styleCode="bold">intact skin.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7330cd2f-9a91-423b-8096-b5f562e0bd29">
+               <id root="8a82eb9d-44b3-43c5-94c4-5527f4ae93d4"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>Lidocaine patch 5% is contraindicated in patients with a known history of sensitivity to local anesthetics of the amide type, or to any other component of the product.</paragraph>
+               </text>
+               <effectiveTime value="20250826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_13d38402-3519-4be0-a43b-6a270002ec45">
+               <id root="40984d97-8196-488d-9959-0e2653b9aeae"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS</content>
+               </title>
+               <effectiveTime value="20250826"/>
+               <component>
+                  <section ID="LINK_66b455b8-f01f-40ca-a718-2508daf3e91d">
+                     <id root="e84f0499-a8d5-4a69-a2eb-24f334bdc0fe"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Risk of Methemoglobinemia</content>
+                     </title>
+                     <text>
+                        <paragraph>Cases of methemoglobinemia have been reported in association with local anesthetic use. Although all patients are at risk for methemoglobinemia, patients with glucose-6-phosphate dehydrogenase deficiency, congenital or idiopathic methemoglobinemia, cardiac or pulmonary compromise, infants under 6 months of age, and concurrent exposure to oxidizing agents or their metabolites are more susceptible to developing clinical manifestations of the condition. If local anesthetics must be used in these patients, close monitoring for symptoms and signs of methemoglobinemia is recommended.</paragraph>
+                        <paragraph>Signs of methemoglobinemia may occur immediately or may be delayed some hours after exposure, and are characterized by a cyanotic skin discoloration and/or abnormal coloration of the blood. Methemoglobin levels may continue to rise; therefore, immediate treatment is required to avert more serious central nervous system and cardiovascular adverse effects, including seizures, coma, arrhythmias, and death. Discontinue lidocaine and any other oxidizing agents. Depending on the severity of the signs and symptoms, patients may respond to supportive care, i.e., oxygen therapy, hydration. A more severe clinical presentation may require treatment with methylene blue, exchange transfusion, or hyperbaric oxygen.</paragraph>
+                     </text>
+                     <effectiveTime value="20250826"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c2b59487-fdcc-442d-a13f-f1f8daf729bf">
+                     <id root="62da711a-85a4-4077-ad8f-5596d6dbf2bb"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Accidental Exposure in Children</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Even a <content styleCode="italics">used </content>lidocaine patch contains a large amount of lidocaine (at least 665 mg). The potential exists for a small child or a pet to suffer serious adverse effects from chewing or ingesting a new or used lidocaine patch, although the risk with this formulation has not been evaluated. It is important for patients to <content styleCode="bold">store </content>
+                           <content styleCode="bold">
+                              <content styleCode="underline">and dispose of</content>
+                           </content>
+                           <content styleCode="bold"> </content>
+                           <content styleCode="bold">lidocaine patch 5%</content>
+                           <content styleCode="bold"> out of the reach of children, pets and others. </content>(See <linkHtml href="#LINK_835660a6-e3d0-475c-8a4b-2635f6049490">HANDLING AND DISPOSAL</linkHtml>)</paragraph>
+                     </text>
+                     <effectiveTime value="20250826"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_6633bdf9-0a04-47b2-9655-0a1edfda254c">
+                     <id root="5b5ffbf3-199c-4db0-b072-e6939df1934f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Excessive Dosing</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Excessive dosing by applying lidocaine patch 5% to larger areas or for longer than the recommended wearing time could result in increased absorption of lidocaine and high blood concentrations, leading to serious adverse effects (see <linkHtml href="#LINK_1f6a30a5-f4c4-4a03-8dcf-2a34ed5c9a4a">ADVERSE REACTIONS</linkHtml>, <linkHtml href="#LINK_62ad09c0-3239-48f4-b723-73f099f7fc70">Systemic Reactions</linkHtml>). Lidocaine toxicity could be expected at lidocaine blood concentrations above 5 mcg/mL. The blood concentration of lidocaine is determined by the rate of systemic absorption and elimination. Longer duration of application, application of more than the recommended number of patches, smaller patients, or impaired elimination may all contribute to increasing the blood concentration of lidocaine. With recommended dosing of lidocaine patch 5%, the average peak blood concentration is about 0.13 mcg/mL, but concentrations higher than 0.25 mcg/mL have been observed in some individuals.</paragraph>
+                     </text>
+                     <effectiveTime value="20250826"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d6007259-4624-43d6-9d3c-3dfb5fdfe998">
+               <id root="5060d23c-7b23-4786-8556-de15e1c8f530"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">PRECAUTIONS</content>
+               </title>
+               <effectiveTime value="20250826"/>
+               <component>
+                  <section ID="LINK_3b8b208c-f433-47db-b046-710c2db75409">
+                     <id root="aae65165-4bd5-4471-aeaa-67204cda702f"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">General</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Hepatic Disease: </content>
+                           </content>Patients with severe hepatic disease are at greater risk of developing toxic blood concentrations of lidocaine, because of their inability to metabolize lidocaine normally.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Allergic Reactions: </content>
+                           </content>Patients allergic to para-aminobenzoic acid derivatives (procaine, tetracaine, benzocaine, etc.) have not shown cross sensitivity to lidocaine. However, lidocaine patch 5% should be used with caution in patients with a history of drug sensitivities, especially if the etiologic agent is uncertain.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Non-intact Skin:</content>
+                           </content> Application to broken or inflamed skin, although not tested, may result in higher blood concentrations of lidocaine from increased absorption. Lidocaine patch 5% is only recommended for use on intact skin.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">External Heat Sources:</content>
+                           </content> Placement of external heat sources, such as heating pads or electric blankets, over lidocaine patch 5% is not recommended as this has not been evaluated and may increase plasma lidocaine levels. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Eye Exposure: </content>
+                           </content>The contact of lidocaine patch 5% with eyes, although not studied, should be avoided based on the findings of severe eye irritation with the use of similar products in animals. If eye contact occurs, immediately wash out the eye with water or saline and protect the eye until sensation returns.</paragraph>
+                     </text>
+                     <effectiveTime value="20250826"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_27ce9720-07d4-4764-ba81-054bee3e9d77">
+                     <id root="bc41bca2-ed2d-46e1-b1db-d61a8820a268"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Information for Patients</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Methemoglobinemia</content>
+                           </content>
+                           <br/>
+Inform patients that use of local anesthetics may cause methemoglobinemia, a serious condition that must be treated promptly. Advise patients or caregivers to stop use and seek immediate medical attention if they or someone in their care experience the following signs or symptoms: pale, gray, or blue colored skin (cyanosis); headache; rapid heart rate; shortness of breath; lightheadedness; or fatigue.</paragraph>
+                     </text>
+                     <effectiveTime value="20250826"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_5b416209-12c9-4b32-b214-1df4a1aa73f4">
+                     <id root="aaa40ac4-9068-4cf1-ac4b-f3d54c27cf40"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Drug Interactions</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Antiarrhythmic Drugs: </content>
+                           </content>Lidocaine patch 5% should be used with caution in patients receiving Class I antiarrhythmic drugs (such as tocainide and mexiletine) since the toxic effects are additive and potentially synergistic.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Local Anesthetics: </content>
+                           </content>When lidocaine patch 5% is used concomitantly with other products containing local anesthetic agents, the amount absorbed from all formulations must be considered.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Drugs That May Cause Methemoglobinemia When Used with Lidocaine Patch 5%</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Patients who are administered local anesthetics are at increased risk of developing methemoglobinemia when concurrently exposed to the following drugs, which could include other local anesthetics:</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Examples of Drugs Associated with Methemoglobinemia:</content>
+                        </paragraph>
+                        <table width="800px" cellpadding="5">
+                           <col width="765px"/>
+                           <col width="765px"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> Class</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">Examples</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> Nitrates/Nitrites</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">nitric oxide, nitroglycerin, nitroprusside, nitrous oxide</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> Local anesthetics</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">articaine, benzocaine, bupivacaine, lidocaine, mepivacaine, prilocaine, procaine, ropivacaine, tetracaine</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> Antineoplastic agents</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">cyclophosphamide, flutamide, hydroxyurea, ifosfamide, rasburicase</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> Antibiotics</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">dapsone, nitrofurantoin, para-aminosalicylic acid, sulfonamides</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> Antimalarials</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">chloroquine, primaquine</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> Anticonvulsants</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">phenobarbital, phenytoin, sodium valproate</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> Other drugs</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">acetaminophen, metoclopramide, quinine, sulfasalazine</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20250826"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_cad77bc2-77ee-4748-ba31-b94066ffe49f">
+                     <id root="81cc7027-68f4-4cf9-a879-4cefa5339433"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Carcinogenesis: </content>
+                           </content>A minor metabolite, 2,6-xylidine, has been found to be carcinogenic in rats. The blood concentration of this metabolite is negligible following application of lidocaine patch 5%.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Mutagenesis: </content>
+                           </content>Lidocaine HCl is not mutagenic in <content styleCode="italics">Salmonella</content>/mammalian microsome test nor clastogenic in chromosome aberration assay with human lymphocytes and mouse micronucleus test.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Impairment of Fertility: </content>
+                           </content>The effect of lidocaine patch 5% on fertility has not been studied.</paragraph>
+                     </text>
+                     <effectiveTime value="20250826"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_3a5406c1-00cf-4b9d-bbda-9674c80e1636">
+                     <id root="1e29eca5-0504-483a-8e96-26ee04aabd3d"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Pregnancy</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Teratogenic Effects: Pregnancy Category B. </content>
+                           </content>Lidocaine patch 5% has not been studied in pregnancy. Reproduction studies with lidocaine have been performed in rats at doses up to 30 mg/kg subcutaneously and have revealed no evidence of harm to the fetus due to lidocaine. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, lidocaine patch 5% should be used during pregnancy only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20250826"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_09139d60-f9e6-428b-8a2a-155b8de20994">
+                     <id root="a2cfcd00-a7ba-4efd-b80b-c376414c8005"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Labor and Delivery</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Lidocaine patch 5% has not been studied in labor and delivery. Lidocaine is not contraindicated in labor and delivery. Should lidocaine patch 5% be used concomitantly with other products containing lidocaine, total doses contributed by all formulations must be considered.</paragraph>
+                     </text>
+                     <effectiveTime value="20250826"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_9da34e88-1b59-4ea5-8089-43e662a877e2">
+                     <id root="556315a2-ab4b-42b5-954a-cf1c69895496"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Nursing Mothers</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Lidocaine patch 5% has not been studied in nursing mothers. Lidocaine is excreted in human milk, and the milk:plasma ratio of lidocaine is 0.4. Caution should be exercised when lidocaine patch 5% is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20250826"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_4b94adfe-c6e6-4b28-a5d5-93b9c36337a5">
+                     <id root="389b195c-a62e-4c9b-b5e8-da0ef974a970"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Pediatric Use</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established. </paragraph>
+                     </text>
+                     <effectiveTime value="20250826"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1f6a30a5-f4c4-4a03-8dcf-2a34ed5c9a4a">
+               <id root="0989bcf8-4904-4b43-951b-210eb92460a2"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">ADVERSE REACTIONS</content>
+               </title>
+               <effectiveTime value="20250826"/>
+               <component>
+                  <section ID="LINK_4df7a914-4d60-4fe3-b123-b604eed07ef8">
+                     <id root="496ee821-b824-43d6-8308-e979a73d0d26"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Application Site Reactions</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>During or immediately after treatment with lidocaine patch 5%, the skin at the site of application may develop blisters, bruising, burning sensation, depigmentation, dermatitis, discoloration, edema, erythema, exfoliation, irritation, papules, petechia, pruritus, vesicles, or may be the locus of abnormal sensation. These reactions are generally mild and transient, resolving spontaneously within a few minutes to hours.</paragraph>
+                     </text>
+                     <effectiveTime value="20250826"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f2e076d7-5d5c-4a22-9fb6-a08fd587c52b">
+                     <id root="38f168ca-eb10-46eb-b34a-2a22829497ad"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Allergic Reactions</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Allergic and anaphylactoid reactions associated with lidocaine, although rare, can occur. They are characterized by angioedema, bronchospasm, dermatitis, dyspnea, hypersensitivity, laryngospasm, pruritus, shock, and urticaria. If they occur, they should be managed by conventional means. The detection of sensitivity by skin testing is of doubtful value.</paragraph>
+                     </text>
+                     <effectiveTime value="20250826"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_242b20ab-e301-4cf6-b226-9b6604a248b8">
+                     <id root="b4b02f3e-57e8-452b-bbca-c5b790d96e82"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Other Adverse Events</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Due to the nature and limitation of spontaneous reports in postmarketing surveillance, causality has not been established for additional reported adverse events including:</paragraph>
+                        <paragraph>Asthenia, confusion, disorientation, dizziness, headache, hyperesthesia, hypoesthesia, lightheadedness, metallic taste, nausea, nervousness, pain exacerbated, paresthesia, somnolence, taste alteration, vomiting, visual disturbances such as blurred vision, flushing, tinnitus, and tremor.</paragraph>
+                     </text>
+                     <effectiveTime value="20250826"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_62ad09c0-3239-48f4-b723-73f099f7fc70">
+                     <id root="38c6a328-7bcb-44d3-9fa0-5f5917e68e62"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Systemic (Dose-Related) Reactions</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Systemic adverse reactions following appropriate use of lidocaine patch 5% are unlikely, due to the small dose absorbed (see <linkHtml href="#LINK_c22cfd87-6b1e-4388-8e9a-98a0bdfc7431">CLINICAL PHARMACOLOGY</linkHtml>, <linkHtml href="#LINK_c78d4d66-7808-417c-911a-e5f32f79b9af">Pharmacokinetics</linkHtml>). Systemic adverse effects of lidocaine are similar in nature to those observed with other amide local anesthetic agents, including CNS excitation and/or depression (light-headedness, nervousness, apprehension, euphoria, confusion, dizziness, drowsiness, tinnitus, blurred or double vision, vomiting, sensations of heat, cold or numbness, twitching, tremors, convulsions, unconsciousness, respiratory depression and arrest). Excitatory CNS reactions may be brief or not occur at all, in which case the first manifestation may be drowsiness merging into unconsciousness. Cardiovascular manifestations may include bradycardia, hypotension and cardiovascular collapse leading to arrest.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE EVENTS, contact Actavis at 1-888-838-2872 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch for voluntary reporting of adverse reactions.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250826"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_814b051b-cece-442d-9284-000798aefded">
+               <id root="c83f3d7d-1acf-44f4-a1c1-0986388924b3"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">OVERDOSAGE</content>
+               </title>
+               <text>
+                  <paragraph>Lidocaine overdose from cutaneous absorption is rare, but could occur. If there is any suspicion of lidocaine overdose (see <linkHtml href="#LINK_1f6a30a5-f4c4-4a03-8dcf-2a34ed5c9a4a">ADVERSE REACTIONS</linkHtml>, <linkHtml href="#LINK_62ad09c0-3239-48f4-b723-73f099f7fc70">Systemic Reactions</linkHtml>), drug blood concentration should be checked. The management of overdose includes close monitoring, supportive care, and symptomatic treatment. Dialysis is of negligible value in the treatment of acute overdose with lidocaine.</paragraph>
+                  <paragraph>In the absence of massive topical overdose or oral ingestion, evaluation of symptoms of toxicity should include consideration of other etiologies for the clinical effects, or overdosage from other sources of lidocaine or other local anesthetics.</paragraph>
+                  <paragraph>The oral LD<sub>50 </sub>of lidocaine HCl is 459 (346 to 773) mg/kg (as the salt) in non-fasted female rats and 214 (159 to 324) mg/kg (as the salt) in fasted female rats, which are equivalent to roughly 4000 mg and 2000 mg, respectively, in a 60 to 70 kg man based on the equivalent surface area dosage conversion factors between species.</paragraph>
+               </text>
+               <effectiveTime value="20250826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_307682c7-2826-41ad-9ab6-16fc03fccdb0">
+               <id root="560e685c-5003-48bc-88f1-cd979f0f576a"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>
+               </title>
+               <text>
+                  <paragraph>Apply lidocaine patch 5% to intact skin to cover the most painful area. Apply the prescribed number of patches (maximum of 3), only once for up to 12 hours within a 24 hour period. Patches may be cut into smaller sizes with scissors prior to removal of the release liner. (See <linkHtml href="#LINK_835660a6-e3d0-475c-8a4b-2635f6049490">HANDLING AND DISPOSAL</linkHtml>) Clothing may be worn over the area of application. Smaller areas of treatment are recommended in a debilitated patient, or a patient with impaired elimination.</paragraph>
+                  <paragraph>If irritation or a burning sensation occurs during application, remove the patch(es) and do not reapply until the irritation subsides.</paragraph>
+                  <paragraph>When lidocaine patch 5% is used concomitantly with other products containing local anesthetic agents, the amount absorbed from all formulations must be considered.</paragraph>
+                  <paragraph>Lidocaine patch 5% may not stick if it gets wet. Avoid contact with water, such as bathing, swimming or showering.</paragraph>
+               </text>
+               <effectiveTime value="20250826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_835660a6-e3d0-475c-8a4b-2635f6049490">
+               <id root="d143a1e6-ee17-424e-b08c-61c9455575c1"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">HANDLING AND DISPOSAL</content>
+               </title>
+               <text>
+                  <paragraph>Hands should be washed after the handling of lidocaine patch 5%, and eye contact with lidocaine patch 5% should be avoided. Do not store patch outside the sealed envelope. Apply immediately after removal from the protective envelope. Fold used patches so that the adhesive side sticks to itself and safely discard used patches or pieces of cut patches where children and pets cannot get to them. Lidocaine patch 5% should be kept out of the reach of children.</paragraph>
+               </text>
+               <effectiveTime value="20250826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7c82a788-789f-4d64-967e-8cc37c04bd57">
+               <id root="afcd5999-f845-43f1-b89a-b21f016d8258"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">HOW SUPPLIED</content>
+               </title>
+               <text>
+                  <paragraph>Lidocaine patch 5% is available as the following:</paragraph>
+                  <paragraph>Carton of 30 patches, packaged into individual child-resistant envelopes.<br/>
+NDC 0591-2679-30 </paragraph>
+                  <paragraph>Store at 20<sup>o</sup> to 25<sup>o</sup>C (68<sup>o</sup> to 77<sup>o</sup>F) [See USP Controlled Room Temperature]. </paragraph>
+                  <paragraph>For more information, call Actavis at 1-888-838-2872.</paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+                  <paragraph>Manufactured by:<br/>
+                     <content styleCode="bold">Actavis Laboratories UT, Inc.<br/>
+                     </content>Salt Lake City, UT 84108 USA</paragraph>
+                  <paragraph>Novaplus is a registered trademark of Vizient, Inc.</paragraph>
+                  <paragraph>Rev. B 4/2021</paragraph>
+               </text>
+               <effectiveTime value="20250826"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>novaplus-logo</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_caad6ddc-c038-4759-a10a-dc4e15030e90">
+               <id root="ef6f5a2a-b303-4109-a24f-6379589e81cc"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>NDC 0591-2679-30<content styleCode="bold">
+                        <br/>
+                     </content>Lidocaine <br/>
+Patch 5%<br/>
+Each adhesive patch contains:<br/>
+Lidocaine, 700 mg (50 mg per gram adhesive) in an aqueous base.<br/>
+Inactive components: non-woven polyethylene terephthalate (PET) backing, glycerin, D-sorbitol, propylene glycol, polyvinyl alcohol, urea, sodium polyacrylate, carboxymethylcellulose sodium, gelatin, polyacrylic acid, kaolin, tartaric acid, dihydroxyaluminum aminoacetate, methylparaben (preservative), propylparaben (preservative), edetate disodium, and a PET release liner.<br/>
+Usual dosage: For dosage and full prescribing information, read accompanying product information.<br/>
+Store at 20° to 25°C [see USP Controlled Room Temperature].<br/>
+WARNING: Keep used and unused patches out of the reach of children, pets and others.<br/>
+Rx only <br/>
+30 Patches<br/>
+(30 Envelopes Containing 1 Patch Each)<content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM4"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250826"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

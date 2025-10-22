@@ -1,0 +1,137 @@
+# Rule: Certification Challenge — Evidence Map & Slide Generator (v4, deliverables/)
+
+## 🚫 File Safety (Hard Constraints)
+- Do **not** read or write outside the current repository.
+- Do **not** edit or overwrite `README.md` (no inserts unless explicitly asked with anchors).
+- **Only** create or update files under: `/deliverables/`.
+- If a required path doesn’t exist, create it.
+
+---
+
+## 🎯 Objective
+Produce two concise, gradable artifacts that prove completion of the **7 Certification Challenge tasks** and make grading fast:
+
+1) **/deliverables/CERT_CHECKLIST.md** — Self‑Checklist & Evidence Map  
+2) **/deliverables/CERT_SLIDES.md** — Presentation outline (intro, 1 slide per task, conclusion)
+
+Use repository content only; if evidence is missing, mark **Partial/No** and specify the missing artifact.
+
+---
+
+## 📥 Input Scope
+Search only within this repository. Prefer these locations if present:
+- `@cert-challenge-grading/cert-challenge-task-list.md` (authoritative tasks)
+- `@cert-challenge-grading/cert-challenge-rubric.csv` (grading rubric)
+- `@cert-challenge-grading/a16z-llm-app-stack.md` (stack layers reference)
+- Top-level files named `README*`, `ARCHITECTURE*`, `DATA*`, `RAGAS*`
+- Folders: `/src`, `/app`, `/scripts`, `/docs`, `/data`, `/deliverables`
+
+No external web research.
+
+---
+
+## 🧭 Phase A — Self‑Checklist & Evidence Map
+**Output:** Create or update **`/deliverables/CERT_CHECKLIST.md`** with exactly this structure.
+
+### A. One‑Screen Summary
+- **Project name**
+- **1‑sentence problem**
+- **Primary user**
+- **Stack summary** (one tool per a16z layer)
+- **Result summary:** naïve vs advanced retrieval (1 sentence)
+
+### B. Task Compliance Table
+| Task | Status (Yes / Partial / No) | Evidence (file + section) | Scope / Clarity Note | One Improvement |
+|------|-----------------------------|---------------------------|----------------------|-----------------|
+| 1. Problem & Audience |  |  |  |  |
+| 2. Solution & Stack |  |  |  |  |
+| 3. Data & Chunking |  |  |  |  |
+| 4. End‑to‑End Prototype |  |  |  |  |
+| 5. Golden Test + RAGAS |  |  |  |  |
+| 6. Advanced Retrieval |  |  |  |  |
+| 7. Performance & Next Steps |  |  |  |  |
+
+**Status Criteria**  
+- ✅ **Yes** — artifact exists and satisfies rubric item.  
+- ⚠️ **Partial** — artifact present but missing a required detail (name what).  
+- ❌ **No** — artifact absent; specify the smallest missing file/section to add.
+
+**Scope / Clarity Notes**  
+- Elements beyond rubric scope (optional/exploration).  
+- Features that are unclear or undocumented.  
+- Nudge focus back to required artifacts.
+
+### C. Metrics Snapshot (Tasks 5 & 7)
+| Strategy | Faithfulness | Response Relevancy | Context Precision | Context Recall |
+|----------|--------------|--------------------|-------------------|----------------|
+| naive |  |  |  |  |
+| advanced |  |  |  |  |
+
+Add exactly two bullets:
+- **1 Strength:** what improved most (metric or design choice)  
+- **1 Next Step:** concrete actionable improvement
+
+### D. Stack Alignment (a16z LLM App Stack)
+| Layer | Tool Used | Why (≤ 12 words) |
+|-------|-----------|------------------|
+| LLM |  |  |
+| Embeddings |  |  |
+| Orchestrator |  |  |
+| Vector DB |  |  |
+| Logging / Eval |  |  |
+| Validators |  |  |
+| UI / Serving |  |  |
+
+### E. Evidence Details (brief)
+For each task: one pointer (file + section/function) and a 1‑line summary.
+
+---
+
+## 🎞 Phase B — Slide Extractor (Presentation Outline)
+**Output:** Create **`/deliverables/CERT_SLIDES.md`** with **9 slides**:
+
+1. **Intro / Hook** — context, problem importance, target user  
+2. **Task 1 — Problem & Audience**  
+3. **Task 2 — Proposed Solution & Stack**  
+4. **Task 3 — Data & Chunking**  
+5. **Task 4 — End‑to‑End Prototype**  
+6. **Task 5 — Golden Test Set & RAGAS**  
+7. **Task 6 — Advanced Retrieval**  
+8. **Task 7 — Performance & Next Steps**  
+9. **Conclusion / Reflection** — key results, lessons learned, next iteration
+
+### Slide Template (apply to slides 2–8)
+```
+## Slide N: Task X — [Task Name]
+**Goal:** [short statement of task requirement]
+**Evidence:** [file + section or artifact]
+**Result:** [1 sentence on what was achieved]
+**Next Step:** [1 sentence improvement or follow‑up]
+```
+
+### Intro / Conclusion
+**Intro:** problem + user (1–2 sentences), app name & core idea.  
+**Conclusion:** 2–3 takeaways, next iteration plan, optional call to action.
+
+---
+
+## 🔁 Procedure (Deterministic)
+1. Locate the task list and rubric in `@cert-challenge-grading/`; otherwise use the canonical 7 labels above.  
+2. Scan repo for minimal, direct evidence per task; prefer existing docs over code comments.  
+3. Fill the checklist table; when **Partial/No**, write the smallest missing artifact in *One Improvement*.  
+4. Build slides strictly: 1 intro, 1 per task, 1 conclusion.  
+5. Write files only under `/deliverables/` and exit.
+
+---
+
+## 🧠 Tone & Style
+- Technical, concise, decision‑oriented.  
+- One sentence per fact where possible.  
+- No marketing language, no speculation.
+
+---
+
+## ⚡ Quick Commands (for users)
+- “Generate Certification Checklist” → `/deliverables/CERT_CHECKLIST.md`  
+- “Generate Slide Outline” → `/deliverables/CERT_SLIDES.md`  
+- “List Gaps to Achieve Yes” → print only missing artifacts (paths/sections)

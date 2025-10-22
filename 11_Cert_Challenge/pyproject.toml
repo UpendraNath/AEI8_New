@@ -1,0 +1,42 @@
+[project]
+name='mediquery'
+version='1.0.0'
+description = "MediQuery - A RAG-powered system that helps patients understand FDA drug labels through natural language queries"
+requires-python = ">=3.11"
+dependencies = [
+    # FastAPI and web framework
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "jinja2>=3.1.0",
+    "python-multipart>=0.0.6",
+    # LangChain and AI/ML
+    "langchain>=0.3.19",
+    "langchain-openai>=0.3.7",
+    "langchain-qdrant>=0.2.0",
+    "langgraph>=0.6.7",
+    "openai>=1.0.0",
+    # Vector database
+    "qdrant-client>=1.13.2",
+    # Safety and validation
+    "guardrails-ai>=0.4.0",
+    "pydantic>=2.0.0",
+    # Data processing
+    "xmltodict>=0.13.0",
+    "beautifulsoup4>=4.12.0",
+    "lxml>=4.9.0",
+    "python-dotenv>=1.0.0",
+    # Evaluation
+    "ragas>=0.2.10",
+    "pandas>=2.0.0",
+    # Development and testing
+    "jupyter>=1.1.1",
+    "requests>=2.31.0",
+    # Optional: Additional utilities
+    "rank-bm25>=0.2.2",
+    "pymupdf>=1.26.3",
+    "rapidfuzz>=3.14.1",
+    "langchain-cohere>=0.4.6",
+    "streamlit>=1.28.0",
+
+]
+

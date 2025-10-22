@@ -1,0 +1,16 @@
+name: Certification Challenge Template
+description: Starter repository for the AI Engineering Certification Challenge.
+include:
+  - "@cert-challenge-grading/"
+  - ".cursor/"
+  - "docs/"
+  - "src/"
+  - "app/"
+  - "scripts/"
+  - "data/"
+  - "deliverables/"
+  - "Makefile"
+  - "requirements.txt"
+  - "pyproject.toml"
+  - "manifest.json"
+  - "README.md"

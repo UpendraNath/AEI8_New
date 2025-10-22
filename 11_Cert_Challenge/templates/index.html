@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediQuery - Drug Label Assistant</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .chat-container {
+            height: calc(100vh - 200px);
+        }
+        .message {
+            animation: fadeIn 0.3s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .typing-indicator {
+            animation: pulse 1.5s infinite;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm border-b">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <i class="fas fa-pills text-blue-600 text-2xl mr-3"></i>
+                    <h1 class="text-2xl font-bold text-gray-900">MediQuery</h1>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <span class="text-sm text-gray-500">Drug Label Assistant</span>
+                    <div class="w-3 h-3 bg-green-500 rounded-full" id="status-indicator"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+            <!-- Sidebar -->
+            <div class="lg:col-span-1">
+                <div class="bg-white rounded-lg shadow-sm p-6">
+                    <h2 class="text-lg font-semibold text-gray-900 mb-4">
+                        <i class="fas fa-filter mr-2"></i>Drug Selection
+                    </h2>
+                    <select id="drug-select" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">All Drugs</option>
+                    </select>
+                    
+                    <div class="mt-6">
+                        <h3 class="text-sm font-medium text-gray-700 mb-3">Example Questions</h3>
+                        <div class="space-y-2">
+                            <button class="example-question text-left text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50 w-full">
+                                "What are the common side effects?"
+                            </button>
+                            <button class="example-question text-left text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50 w-full">
+                                "Can I take this with alcohol?"
+                            </button>
+                            <button class="example-question text-left text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50 w-full">
+                                "What should I do if I miss a dose?"
+                            </button>
+                            <button class="example-question text-left text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50 w-full">
+                                "How should I store this medication?"
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6 p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
+                        <div class="flex items-start">
+                            <i class="fas fa-exclamation-triangle text-yellow-600 mt-1 mr-2"></i>
+                            <div class="text-sm text-yellow-800">
+                                <strong>Safety Notice:</strong> This tool provides information from FDA drug labels only. It does not replace professional medical advice.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Chat Area -->
+            <div class="lg:col-span-3">
+                <div class="bg-white rounded-lg shadow-sm h-full flex flex-col">
+                    <!-- Chat Header -->
+                    <div class="p-4 border-b border-gray-200">
+                        <h2 class="text-lg font-semibold text-gray-900">
+                            <i class="fas fa-comments mr-2"></i>Ask a Question
+                        </h2>
+                        <p class="text-sm text-gray-600">Ask questions about drug labels in plain English</p>
+                    </div>
+
+                    <!-- Chat Messages -->
+                    <div id="chat-messages" class="chat-container overflow-y-auto p-4 space-y-4">
+                        <div class="text-center text-gray-500 py-8">
+                            <i class="fas fa-robot text-4xl mb-4"></i>
+                            <p>Welcome to MediQuery! Ask me anything about drug labels.</p>
+                        </div>
+                    </div>
+
+                    <!-- Chat Input -->
+                    <div class="p-4 border-t border-gray-200">
+                        <form id="chat-form" class="flex space-x-4">
+                            <input 
+                                type="text" 
+                                id="chat-input" 
+                                placeholder="Ask a question about drug labels..."
+                                class="flex-1 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                                required
+                            >
+                            <button 
+                                type="submit" 
+                                class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50"
+                                id="send-button"
+                            >
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Modal -->
+    <div id="loading-modal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
+        <div class="bg-white rounded-lg p-6 max-w-sm mx-4">
+            <div class="flex items-center">
+                <div class="typing-indicator w-4 h-4 bg-blue-600 rounded-full mr-3"></div>
+                <span class="text-gray-700">Processing your question...</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let selectedDrug = '';
+        let isLoading = false;
+
+        // Initialize app
+        document.addEventListener('DOMContentLoaded', function() {
+            loadDrugs();
+            setupEventListeners();
+            checkHealth();
+        });
+
+        // Load available drugs
+        async function loadDrugs() {
+            try {
+                const response = await fetch('/api/drugs');
+                const data = await response.json();
+                const select = document.getElementById('drug-select');
+                
+                if (data.drugs && data.drugs.length > 0) {
+                    data.drugs.forEach(drug => {
+                        const option = document.createElement('option');
+                        option.value = drug;
+                        option.textContent = drug;
+                        select.appendChild(option);
+                    });
+                } else {
+                    // Show message when no drugs available
+                    const option = document.createElement('option');
+                    option.value = '';
+                    option.textContent = 'No drugs available - Run data ingestion first';
+                    option.disabled = true;
+                    select.appendChild(option);
+                }
+            } catch (error) {
+                console.error('Error loading drugs:', error);
+                const select = document.getElementById('drug-select');
+                const option = document.createElement('option');
+                option.value = '';
+                option.textContent = 'Error loading drugs';
+                option.disabled = true;
+                select.appendChild(option);
+            }
+        }
+
+        // Setup event listeners
+        function setupEventListeners() {
+            // Chat form submission
+            document.getElementById('chat-form').addEventListener('submit', handleSubmit);
+            
+            // Drug selection
+            document.getElementById('drug-select').addEventListener('change', function(e) {
+                selectedDrug = e.target.value;
+            });
+            
+            // Example questions
+            document.querySelectorAll('.example-question').forEach(button => {
+                button.addEventListener('click', function() {
+                    document.getElementById('chat-input').value = this.textContent.trim();
+                });
+            });
+        }
+
+        // Handle form submission
+        async function handleSubmit(e) {
+            e.preventDefault();
+            
+            const input = document.getElementById('chat-input');
+            const question = input.value.trim();
+            
+            if (!question || isLoading) return;
+            
+            // Add user message
+            addMessage('user', question);
+            input.value = '';
+            
+            // Show loading
+            showLoading();
+            
+            try {
+                const response = await fetch('/api/query', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        question: question,
+                        drug_name: selectedDrug || null
+                    })
+                });
+                
+                const data = await response.json();
+                
+                // Add assistant response
+                addMessage('assistant', data.answer, data);
+                
+                // Show warning if medical advice detected
+                if (data.is_advice_query) {
+                    addWarning('This query appears to be asking for medical advice. Please consult your doctor.');
+                }
+                
+            } catch (error) {
+                addMessage('assistant', 'Sorry, I encountered an error processing your question.');
+                console.error('Error:', error);
+            } finally {
+                hideLoading();
+            }
+        }
+
+        // Add message to chat
+        function addMessage(role, content, data = null) {
+            const messagesContainer = document.getElementById('chat-messages');
+            
+            // Remove welcome message if it exists
+            const welcomeMsg = messagesContainer.querySelector('.text-center');
+            if (welcomeMsg) {
+                welcomeMsg.remove();
+            }
+            
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message flex ${role === 'user' ? 'justify-end' : 'justify-start'}`;
+            
+            const messageContent = document.createElement('div');
+            messageContent.className = `max-w-xs lg:max-w-md px-4 py-2 rounded-lg ${
+                role === 'user' 
+                    ? 'bg-blue-600 text-white' 
+                    : 'bg-gray-100 text-gray-900'
+            }`;
+            
+            messageContent.innerHTML = `
+                <div class="message-text">${content}</div>
+                ${data && data.sources ? `
+                    <details class="mt-2 text-xs">
+                        <summary class="cursor-pointer hover:underline">Sources</summary>
+                        <div class="mt-2 space-y-1">
+                            ${data.sources.map(source => `
+                                <div class="border-l-2 border-blue-300 pl-2">
+                                    <strong>${source.section}</strong> - ${source.drug}<br>
+                                    <em>${source.content}</em>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </details>
+                ` : ''}
+            `;
+            
+            messageDiv.appendChild(messageContent);
+            messagesContainer.appendChild(messageDiv);
+            
+            // Scroll to bottom
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        // Add warning message
+        function addWarning(message) {
+            const messagesContainer = document.getElementById('chat-messages');
+            const warningDiv = document.createElement('div');
+            warningDiv.className = 'message flex justify-center';
+            
+            const warningContent = document.createElement('div');
+            warningContent.className = 'bg-yellow-100 border border-yellow-400 text-yellow-800 px-4 py-2 rounded-lg max-w-md';
+            warningContent.innerHTML = `<i class="fas fa-exclamation-triangle mr-2"></i>${message}`;
+            
+            warningDiv.appendChild(warningContent);
+            messagesContainer.appendChild(warningDiv);
+            
+            // Scroll to bottom
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        // Show loading modal
+        function showLoading() {
+            isLoading = true;
+            document.getElementById('loading-modal').classList.remove('hidden');
+            document.getElementById('loading-modal').classList.add('flex');
+            document.getElementById('send-button').disabled = true;
+        }
+
+        // Hide loading modal
+        function hideLoading() {
+            isLoading = false;
+            document.getElementById('loading-modal').classList.add('hidden');
+            document.getElementById('loading-modal').classList.remove('flex');
+            document.getElementById('send-button').disabled = false;
+        }
+
+        // Check health status
+        async function checkHealth() {
+            try {
+                const response = await fetch('/api/health');
+                const data = await response.json();
+                
+                const indicator = document.getElementById('status-indicator');
+                if (data.agent_initialized) {
+                    indicator.className = 'w-3 h-3 bg-green-500 rounded-full';
+                } else {
+                    indicator.className = 'w-3 h-3 bg-red-500 rounded-full';
+                }
+            } catch (error) {
+                console.error('Health check failed:', error);
+                document.getElementById('status-indicator').className = 'w-3 h-3 bg-red-500 rounded-full';
+            }
+        }
+    </script>
+</body>
+</html>

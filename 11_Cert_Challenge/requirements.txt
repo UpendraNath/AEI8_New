@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+jinja2
+python-multipart
+langchain
+langgraph
+ragas
+openai
+qdrant-client
+langchain-qdrant
+guardrails-ai
+python-dotenv
+pydantic
+xmltodict
+zipfile38
+beautifulsoup4
+lxml

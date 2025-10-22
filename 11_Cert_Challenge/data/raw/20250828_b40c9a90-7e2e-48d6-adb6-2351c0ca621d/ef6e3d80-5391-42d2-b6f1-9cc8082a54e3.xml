@@ -1,0 +1,1656 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="ef6e3d80-5391-42d2-b6f1-9cc8082a54e3"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Dextroamphetamine Sulfate Tablets, USP CII</title>
+   <effectiveTime value="20250826"/>
+   <setId root="b40c9a90-7e2e-48d6-adb6-2351c0ca621d"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+            <name>Bryant Ranch Prepack</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                  <name>Bryant Ranch Prepack</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                        <name>Bryant Ranch Prepack</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="72162-2352"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="72162-2352"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="d604995d-9dec-4bdf-b9f8-b45d576eeb7e"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20240823"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72162-2352" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dextroamphetamine Sulfate</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Dextroamphetamine Sulfate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="52536-520" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2LRS185U6K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>D&amp;C RED NO. 27</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="68401960MK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE (120 .MU.M)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4ELV7Z65AP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STEARIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 1</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="20"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="JJ768O327N" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTROAMPHETAMINE SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="TZ47U051FI" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DEXTROAMPHETAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72162-2352-3" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20240814"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA090533" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210806"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48327" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="purple" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="11" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">20;MIA</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48675" displayName="CII" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dextroamphetamine-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="BOX">
+               <id root="8f8efacb-e8fe-4f5a-9d20-09ae196dfbb5"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING: ABUSE, MISUSE, AND ADDICTION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Dextroamphetamine sulfate has a high potential for abuse and misuse, which can lead to the development of a substance use disorder, including addiction. Misuse and abuse of CNS stimulants, including dextroamphetamine sulfate, can result in overdose and death (see
+  
+   <linkHtml href="#OD">OVERDOSAGE</linkHtml>), and this risk is increased with higher doses or unapproved methods of administration, such as snorting or injection.
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Before prescribing dextroamphetamine sulfate, assess each patient's risk for abuse, misuse, and addiction. Educate patients and their families about these risks, proper storage of the drug, and proper disposal of any unused drug. Throughout dextroamphetamine sulfate treatment, reassess each patient's risk of abuse, misuse, and addiction and frequently monitor for signs and symptoms of abuse, misuse, and addiction (see
+  
+   <linkHtml href="#warn">WARNINGS</linkHtml>and
+  
+   <linkHtml href="#DAaD">DRUG ABUSE and DEPENDENCE</linkHtml>).
+ 
+  </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231115"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="22904682-b6f2-4e96-968d-de4cdcbd76f9"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Dextroamphetamine sulfate, USP is the dextro isomer of the compound
+ 
+  <content styleCode="italics">d,l</content>-amphetamine sulfate, a sympathomimetic amine of the amphetamine group. Chemically, dextroamphetamine is d-alpha-methylphenethylamine, and is present in all forms of dextroamphetamine sulfate, USP as the neutral sulfate. The structural formula is as follows: 
+
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+                  <paragraph>(C
+ 
+  <sub>9</sub>H
+ 
+  <sub>13</sub>N)
+ 
+  <sub>2</sub>∙H
+ 
+  <sub>2</sub>SO
+ 
+  <sub>4</sub>M.W.368.49
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20240301"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="55a5efbd-4d30-4f5e-b9d9-aea0bbd69384"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>INACTIVE INGREDIENTS</title>
+               <text>
+                  <paragraph>Each tablet, for oral administration, contains dextroamphetamine sulfate, USP in either 5 mg, 10 mg, 15 mg, 20 mg or 30 mg. Each tablet also contains the following inactive ingredients: colloidal silicon dioxide, crospovidone, microcrystalline cellulose and stearic acid.</paragraph>
+                  <paragraph>The 5 mg tablets also contain D&amp;C Red #27 and FD&amp;C Yellow #6. The 10 mg tablets also contain FD&amp;C Red #40, FD&amp;C Yellow #6 and FD&amp;C Blue #2. The 15 mg tablets also contain FD&amp;C Blue #1, FD&amp;C Blue #2, and FD&amp;C Red #40. The 20 mg tablets also contain FD&amp;C Blue #1 and D&amp;C Red #27. The 30 mg tablets also contain D&amp;C Yellow #10.</paragraph>
+               </text>
+               <effectiveTime value="20231115"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="aa2de7d1-867f-46a1-a8d7-669ce1de066a"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Amphetamines are non-catecholamine, sympathomimetic amines with CNS stimulant activity. Peripheral actions include elevations of systolic and diastolic blood pressures and weak bronchodilator and respiratory stimulant action.</paragraph>
+                  <paragraph>There is neither specific evidence which clearly establishes the mechanism whereby amphetamines produce mental and behavioral effects in children, nor conclusive evidence regarding how these effects relate to the condition of the central nervous system.</paragraph>
+               </text>
+               <effectiveTime value="20231115"/>
+               <component>
+                  <section>
+                     <id root="31c2a3f9-8139-4c67-9973-4c05812cf0b4"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph>The pharmacokinetics of the tablet and sustained-release capsule were compared in 12 healthy subjects. The extent of bioavailability of the sustained-release capsule was similar compared to the immediate-release tablet. Following administration of three 5 mg tablets, average maximal dextroamphetamine plasma concentrations (C
+ 
+  <sub>max</sub>) of 36.6 ng/mL were achieved at approximately 3 hours. Following administration of one 15 mg sustained-release capsule, maximal dextroamphetamine plasma concentrations were obtained approximately 8 hours after dosing. The average C
+ 
+  <sub>max</sub>was 23.5 ng/mL. The average plasma T½ was similar for both the tablet and sustained-release capsule and was approximately 12 hours.
+
+ </paragraph>
+                        <paragraph>In 12 healthy subjects, the rate and extent of dextroamphetamine absorption were similar following administration of the sustained-release capsule formulation in the fed (58 to 75 gm fat) and fasted state.</paragraph>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2458a7b0-0051-4ccd-8470-888b8ff3d7fd"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Dextroamphetamine sulfate tablets, USP are indicated for:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="bold">Narcolepsy.</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Attention Deficit Disorder with Hyperactivity:</content>As an integral part of a total treatment program which typically includes other remedial measures (psychological, educational, social) for a stabilizing effect in pediatric patients (ages 3 to 16 years) with a behavioral syndrome characterized by the following group of developmentally inappropriate symptoms: moderate to severe distractibility, short attention span, hyperactivity, emotional lability, and impulsivity. The diagnosis of this syndrome should not be made with finality when these symptoms are only of comparatively recent origin. Nonlocalizing (soft) neurological signs, learning disability, and abnormal EEG may or may not be present, and a diagnosis of central nervous system dysfunction may or may not be warranted.
+ 
+  </item>
+                  </list>
+               </text>
+               <effectiveTime value="20231115"/>
+            </section>
+         </component>
+         <component>
+            <section ID="contra">
+               <id root="a51ea886-6fa7-4c70-8719-0811d497dcc2"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Known hypersensitivity to amphetamine products.</paragraph>
+                  <paragraph>During or within 14 days following the administration of monoamine oxidase inhibitors (hypertensive crises may result).</paragraph>
+               </text>
+               <effectiveTime value="20231115"/>
+            </section>
+         </component>
+         <component>
+            <section ID="warn">
+               <id root="f4df1a06-9622-4475-bb1f-0765fe5b8517"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20231115"/>
+               <component>
+                  <section>
+                     <id root="b18647e2-4e8c-4916-8509-b5f545c8330f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Abuse, Misuse, and Addiction</title>
+                     <text>
+                        <paragraph>Dextroamphetamine sulfate has a high potential for abuse and misuse. The use of dextroamphetamine sulfate exposes individuals to the risks of abuse and misuse, which can lead to the development of a substance use disorder, including addiction. Amphetamine sulfate can be diverted for non-medical use into illicit channels or distribution (see
+ 
+  <linkHtml href="#DAaD">DRUG ABUSE and DEPENDENCE</linkHtml>). Misuse and abuse of CNS stimulants, including dextroamphetamine sulfate, can result in overdose and death (see
+ 
+  <linkHtml href="#OD">OVERDOSAGE</linkHtml>), and this risk is increased with higher doses or unapproved methods of administration, such as snorting or injection.
+
+ </paragraph>
+                        <paragraph>Before prescribing dextroamphetamine sulfate, assess each patient's risk for abuse, misuse, and addiction. Educate patients and their families about these risks and proper disposal of any unused drug. Advise patients to store amphetamine sulfate in a safe place, preferably locked, and instruct patients to not give dextroamphetamine sulfate to anyone else. Throughout dextroamphetamine sulfate treatment, reassess each patient's risk of abuse, misuse, and addiction and frequently monitor for signs and symptoms of abuse, misuse, and addiction.</paragraph>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="480b1d97-f371-487f-9fe4-c4898c18e8a6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Risks to Patients with Serious Cardiac Disease</title>
+                     <text>
+                        <paragraph>Sudden death has been reported in patients with structural cardiac abnormalities or other serious cardiac disease who are treated with CNS stimulants at the recommended ADHD dosages.</paragraph>
+                        <paragraph>Avoid dextroamphetamine sulfate use in patients with known structural cardiac abnormalities, cardiomyopathy, serious cardiac arrhythmia, coronary artery disease, or other serious cardiac disease.</paragraph>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="f5d83412-0124-4a71-998b-fc744d88b793"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Increased Blood Pressure and Heart Rate</title>
+                     <text>
+                        <paragraph>CNS stimulants cause an increase in blood pressure (mean increase about 2 to 4 mm Hg) and heart rate (mean increase about 3 to 6 bpm). Monitor all patients for potential tachycardia and hypertension.</paragraph>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="a631a92a-0fc0-4595-98ea-952d2194ed41"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Psychiatric Adverse Reactions</title>
+                     <effectiveTime value="20231115"/>
+                     <component>
+                        <section ID="id_link_1ddb4bc0-29fe-f08b-e063-6394a90a9462">
+                           <id root="b65f7ab2-d255-4162-a32e-f6c0557cb142"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Exacerbation of Pre-Existing Psychosis</content>
+                           </title>
+                           <text>
+                              <paragraph>CNS stimulants may exacerbate symptoms of behavior disturbance and thought disorder in patients with a pre-existing psychotic disorder.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddb6c8b-56a0-1907-e063-6394a90a5b4e">
+                           <id root="29269d6d-8dc3-4e14-b8f6-ce78848ad921"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Induction of a Manic Episode in Patients with Bipolar Disorder</content>
+                           </title>
+                           <text>
+                              <paragraph>CNS stimulants may induce a manic or mixed episode in patients. Prior to initiating treatment, screen patients for risk factors for developing a manic episode (e.g., comorbid or history of depressive symptoms or a family history of suicide, bipolar disorder, or depression).</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddb73bb-6115-8887-e063-6394a90aa49d">
+                           <id root="d86958b8-19fc-449a-b228-034df0ca50aa"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">New Psychotic or Manic Symptoms</content>
+                           </title>
+                           <text>
+                              <paragraph>CNS stimulants, at recommended doses, may cause psychotic or manic symptoms (e.g., hallucinations, delusional thinking, or mania) in patients without a prior history of psychotic illness or mania. In a pooled analysis of multiple short-term, placebo-controlled studies of CNS stimulants, psychotic or manic symptoms occurred in approximately 0.1% of CNS stimulant-treated patients, compared with 0% of placebo-treated patients. If such symptoms occur, consider discontinuing dextroamphetamine sulfate.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddbc8d3-3e33-a176-e063-6294a90a6db1">
+                           <id root="33d31b2e-9e10-4967-a93a-6d36c9aec963"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Long-Term Suppression of Growth in Pediatric Patients</content>
+                           </title>
+                           <text>
+                              <paragraph>CNS stimulants have been associated with weight loss and slowing of growth rate in pediatric patients, including dextroamphetamine sulfate. Closely monitor growth (weight and height) in dextroamphetamine sulfate -treated pediatric patients treated with CNS stimulants.</paragraph>
+                              <paragraph>Pediatric patients who are not growing or gaining height or weight as expected may need to have their treatment interrupted (see 
+  <linkHtml href="#precautions">PRECAUTIONS</linkHtml>, 
+  <linkHtml href="#PU">PEDIATRIC USE</linkHtml>).
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcacc9-76ae-17c9-e063-6294a90aeb73">
+                           <id root="12684449-ca1e-4122-9dfb-ec7c35b735f5"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Seizures</content>
+                           </title>
+                           <text>
+                              <paragraph>There is some clinical evidence that stimulants may lower the convulsive threshold in patients with prior history of seizures, in patients with prior EEG abnormalities in absence of seizures, and, very rarely, in patients without a history of seizures and no prior EEG evidence of seizures. In the presence of seizures, the drug should be discontinued.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddc960c-88c3-3d89-e063-6294a90af133">
+                           <id root="8d7adc42-d817-4395-99f6-5ec22b147dcd"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Peripheral Vasculopathy, Including Raynaud's Phenomenon</content>
+                           </title>
+                           <text>
+                              <paragraph>Stimulants, including dextroamphetamine sulfate tablets, used to treat ADHD are associated with peripheral vasculopathy, including Raynaud's phenomenon. Signs and symptoms are usually intermittent and mild; however, very rare sequelae include digital ulcerations and/or soft tissue breakdown. Effects of peripheral vasculopathy, including Raynaud's phenomenon, were observed in post-marketing reports at the therapeutic dosages of CNS stimulants in all age groups throughout the course of treatment. Signs and symptoms generally improved after dosage reduction or discontinuation of the CNS stimulant. Careful observation for digital changes is necessary during dextroamphetamine sulfate tablet-treatment. Further clinical evaluation (e.g., rheumatology referral) may be appropriate for dextroamphetamine sulfate tablet-treated patients who develop signs or symptoms of peripheral vasculopathy.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddc948e-9df6-e8f9-e063-6394a90a98e4">
+                           <id root="2fab4f4d-95c2-4e84-8419-7ff0ec1fabc4"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Serotonin Syndrome</content>
+                           </title>
+                           <text>
+                              <paragraph>Serotonin syndrome, a potentially life-threatening reaction, may occur when amphetamines are used in combination with other drugs that affect the serotonergic neurotransmitter systems such as monoamine oxidase inhibitors (MAOIs), selective serotonin reuptake inhibitors (SSRIs), serotonin norepinephrine reuptake inhibitors (SNRIs), triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, and St. John's Wort (see 
+  <linkHtml href="#DI">Drug Interactions</linkHtml>). The co-administration of cytochrome P450 (CYP2D6) inhibitors may also increase the risk with increased exposure to dextroamphetamine sulfate tablets. In these situations, consider an alternative non-serotonergic drug or an alternative drug that does not inhibit CYP2D6 (see 
+  <linkHtml href="#DI">Drug Interactions</linkHtml>).
+ </paragraph>
+                              <paragraph>Serotonin syndrome symptoms may include mental status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic instability (e.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular symptoms (e.g., tremor, rigidity, myoclonus, hyperreflexia, incoordination), seizures, and/or gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea).</paragraph>
+                              <paragraph>Concomitant use of dextroamphetamine sulfate tablets with MAOI drugs is contraindicated (see 
+  <linkHtml href="#contra">CONTRAINDICATIONS</linkHtml>).
+ </paragraph>
+                              <paragraph>Discontinue treatment with dextroamphetamine sulfate tablets and any concomitant serotonergic agents immediately if the above symptoms occur, and initiate supportive symptomatic treatment. If concomitant use of dextroamphetamine sulfate tablets with other serotonergic drugs or CYP2D6 inhibitors is clinically warranted, initiate dextroamphetamine sulfate tablets with lower doses, monitor patients for the emergence of serotonin syndrome during drug initiation or titration, and inform patients of the increased risk for serotonin syndrome.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="5508f466-caa3-4ca7-9a3a-9464785a587a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Motor and Verbal Tics, and Worsening of Tourette's Syndrome</title>
+                     <text>
+                        <paragraph>CNS stimulants, including dextroamphetamine sulfate, have been associated with the onset or exacerbation of motor and verbal tics. Worsening of Tourette's syndrome has also been reported. Assess the family history and clinically evaluate patients for tics or Tourette's syndrome before initiating dextroamphetamine sulfate. Regularly monitor patients for the emergence or worsening of tics or Tourette's syndrome with dextroamphetamine sulfate, and discontinue treatment if clinically appropriate.</paragraph>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="precautions">
+               <id root="893fe511-7014-46eb-84e3-997c8e4ee553"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20231115"/>
+               <component>
+                  <section>
+                     <id root="40da517b-03e2-448b-8d4a-ff4958b3e14f"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Advise the patient to read the FDA-approved patient labeling (Medication Guide).</paragraph>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                     <component>
+                        <section ID="id_link_1ddca6e4-e9f6-1d5a-e063-6394a90af292">
+                           <id root="5fda2da9-304c-4ba6-8a2a-9309e9601f34"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Abuse, Misuse, and Addiction</content>
+                           </title>
+                           <text>
+                              <paragraph>Educate patients and their families about the risks of abuse, misuse, and addiction of dextroamphetamine sulfate, which can lead to overdose and death, and proper disposal of any unused drug (see 
+  <linkHtml href="#warn">WARNINGS</linkHtml>, 
+  <linkHtml href="#DAaD">DRUG ABUSE AND DEPENDENCE</linkHtml>, and 
+  <linkHtml href="#OD">OVERDOSAGE</linkHtml>). Advise patients to store dextroamphetamine sulfate in a safe place, preferably locked, and instruct patients to not give dextroamphetamine sulfate to anyone else.
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddca6e4-e9f8-1d5a-e063-6394a90af292">
+                           <id root="02b5876c-8697-431a-8e01-c8df900697f4"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Risks to Patients with Serious Cardiac Disease</content>
+                           </title>
+                           <text>
+                              <paragraph>Advise patients that there are potential risks to patients with serious cardiac disease, including sudden death, with dextroamphetamine sulfate use. Instruct patients to contact a healthcare provider immediately if they develop symptoms such as exertional chest pain, unexplained syncope, or other symptoms suggestive of cardiac disease (see 
+  <linkHtml href="#warn">WARNINGS</linkHtml>).
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcc271-7858-fbc4-e063-6394a90a14d5">
+                           <id root="35e12fcd-81d9-4e3b-b745-27a0a81a0203"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Increased Blood Pressure and Heart Rate</title>
+                           <text>
+                              <paragraph>Advise patients that dextroamphetamine sulfate can elevate blood pressure and heart rate (see 
+  <linkHtml href="#warn">WARNINGS</linkHtml>).
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddca6f8-50ae-1241-e063-6394a90a2111">
+                           <id root="2100c117-0faa-4626-b3de-35a2fd127b33"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Psychiatric Adverse Reactions</content>
+                           </title>
+                           <text>
+                              <paragraph>Advise patients that dextroamphetamine sulfate, at recommended doses, can cause psychotic or manic symptoms, even in patients without prior history of psychotic symptoms or mania (see 
+  <linkHtml href="#warn">WARNINGS</linkHtml>).
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcc1ec-6b36-48d6-e063-6294a90a1f88">
+                           <id root="0417d403-05b3-4e56-b4d4-6a3e6762b0e9"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Long-Term Suppression of Growth in Pediatric Patients</content>
+                           </title>
+                           <text>
+                              <paragraph>Advise patients that dextroamphetamine sulfate, may cause slowing of growth including weight loss (see 
+  <linkHtml href="#warn">WARNINGS</linkHtml>).
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcb37b-a6a5-0e10-e063-6394a90a3edc">
+                           <id root="aceaf6bb-6bd2-4cde-bd78-c50f45d0a744"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Circulation problems in fingers and toes [Peripheral vasculopathy, including Raynaud's phenomenon]</content>
+                           </title>
+                           <text>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>Instruct patients beginning treatment with dextroamphetamine sulfate tablets about the risk of peripheral vasculopathy, including Raynaud's Phenomenon, and associated signs and symptoms: fingers or toes may feel numb, cool, painful, and/or may change color from pale, to blue, to red.</item>
+                                 <item>Instruct patients to report to their physician any new numbness, pain, skin color change, or sensitivity to temperature in fingers or toes.</item>
+                                 <item>
+                                    <content styleCode="bold">Instruct patients to call their physician immediately with any signs of unexplained wounds appearing on fingers or toes while taking dextroamphetamine sulfate tablets.</content>
+                                 </item>
+                                 <item>Further clinical evaluation (e.g., rheumatology referral) may be appropriate for certain patients.</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddca402-d1b6-12f6-e063-6394a90a96ef">
+                           <id root="36757b05-a595-48bb-b6ed-70ebff681c11"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Serotonin Syndrome</content>
+                           </title>
+                           <text>
+                              <paragraph>Caution patients about the risk of serotonin syndrome with concomitant use of dextroamphetamine sulfate and other serotonergic drugs including SSRIs, SNRIs, triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, St. John's Wort, and with drugs that impair metabolism of serotonin (in particular MAOIs, both those intended to treat psychiatric disorders and also others such as linezolid [see 
+  <linkHtml href="#contra">CONTRAINDICATIONS</linkHtml>, 
+  <linkHtml href="#warn">WARNINGS</linkHtml>, and 
+  <linkHtml href="#DI">DRUG INTERACTIONS</linkHtml>]. Advise patients to contact their healthcare provider or report to the emergency room if they experience signs or symptoms of serotonin syndrome.
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcc1ec-6b38-48d6-e063-6294a90a1f88">
+                           <id root="32668ea5-34eb-41ba-bbdd-452b662505ef"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Motor and Verbal Tics, and Worsening of Tourette's Syndrome</content>
+                           </title>
+                           <text>
+                              <paragraph>Advise patients that motor and verbal tics and worsening of Tourette's Syndrome may occur during treatment with dextroamphetamine sulfate. Instruct the patients to notify their healthcare provider if emergence or worsening of tics or Tourette's syndrome occurs (see 
+  <linkHtml href="#warn">WARNINGS</linkHtml>).
+ </paragraph>
+                              <paragraph>Amphetamines may impair the ability of the patient to engage in potentially hazardous activities such as operating machinery or vehicles; the patient should therefore be cautioned accordingly.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="DI">
+                     <id root="fc3f439c-4ae8-4a56-9939-866063cec621"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <effectiveTime value="20231115"/>
+                     <component>
+                        <section ID="id_link_1ddcc437-ca09-5c34-e063-6394a90ac2ea">
+                           <id root="9c7d3653-28f2-4ee7-b03a-2d68b00a22ad"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">MAO Inhibitors</content>
+                           </title>
+                           <text>
+                              <paragraph>MAOI antidepressants, as well as a metabolite of furazolidone, slow amphetamine metabolism. This slowing potentiates amphetamines, increasing their effect on the release of norepinephrine and other monoamines from adrenergic nerve endings; this can cause headaches and other signs of hypertensive crisis. A variety of neurological toxic effects and malignant hyperpyrexia can occur, sometimes with fatal results.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddca6e4-e9fa-1d5a-e063-6394a90af292">
+                           <id root="04381e91-97b7-4ceb-a021-d73441176e31"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Serotonergic Drugs</content>
+                           </title>
+                           <text>
+                              <paragraph>The concomitant use of dextroamphetamine sulfate tablets and serotonergic drugs increases the risk of serotonin syndrome. Initiate with lower doses and monitor patients for signs and symptoms of serotonin syndrome, particularly during dextroamphetamine sulfate tablets initiation or dosage increase. If serotonin syndrome occurs, discontinue dextroamphetamine sulfate tablets and the concomitant serotonergic drug(s) (see 
+  <linkHtml href="#warn">WARNINGS</linkHtml>and 
+  <linkHtml href="#precautions">PRECAUTIONS</linkHtml>). Examples of serotonergic drugs include selective serotonin reuptake inhibitors (SSRI), serotonin norepinephrine reuptake inhibitors (SNRI), triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, St. John's Wort.
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcc271-785a-fbc4-e063-6394a90a14d5">
+                           <id root="d9929a02-f9c8-4b9d-a504-720a32354d37"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">CYP2D6 Inhibitors</content>
+                           </title>
+                           <text>
+                              <paragraph>The concomitant use of dextroamphetamine sulfate tablets and CYP2D6 inhibitors may increase the exposure of dextroamphetamine sulfate tablets compared to the use of the drug alone and increase the risk of serotonin syndrome. Initiate with lower doses and monitor patients for signs and symptoms of serotonin syndrome particularly during dextroamphetamine sulfate tablets initiation and after a dosage increase. If serotonin syndrome occurs, discontinue dextroamphetamine sulfate tablets and the CYP2D6 inhibitor (see 
+  <linkHtml href="#warn">WARNINGS</linkHtml>, 
+  <linkHtml href="#OD">OVERDOSAGE</linkHtml>).
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddca6f8-50b1-1241-e063-6394a90a2111">
+                           <id root="eb00a5c0-2827-4c35-96a2-10e7f42b6ef6"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Acidifying Agents</content>
+                           </title>
+                           <text>
+                              <paragraph>Gastrointestinal acidifying agents (guanethidine, reserpine, glutamic acid HCl, ascorbic acid, fruit juices, etc.) lower absorption of amphetamines. Urinary acidifying agents (ammonium chloride, sodium acid phosphate, etc.) increase the concentration of the ionized species of the amphetamine molecule, thereby increasing urinary excretion. Both groups of agents lower blood levels and efficacy of amphetamines.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddca6e4-e9fe-1d5a-e063-6394a90af292">
+                           <id root="c8ef41fb-3273-4d28-ae61-4e0cd1a174c2"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Adrenergic Blockers</content>
+                           </title>
+                           <text>
+                              <paragraph>Adrenergic blockers are inhibited by amphetamines.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcc271-785c-fbc4-e063-6394a90a14d5">
+                           <id root="cc8480f2-41e5-4eb0-b036-39fd5a386390"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Alkalinizing Agents</content>
+                           </title>
+                           <text>
+                              <paragraph>Gastrointestinal alkalinizing agents (sodium bicarbonate, etc.) increase absorption of amphetamines. Urinary alkalinizing agents (acetazolamide, some thiazides) increase the concentration of the non-ionized species of the amphetamine molecule, thereby decreasing urinary excretion. Both groups of agents increase blood levels and therefore potentiate the actions of amphetamines.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcc8b3-ab69-1298-e063-6394a90a053b">
+                           <id root="5bf56400-0d00-4259-b073-52ed8eac1405"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Antidepressants, Tricyclic</content>
+                           </title>
+                           <text>
+                              <paragraph>Amphetamines may enhance the activity of tricyclic or sympathomimetic agents; d-amphetamine with desipramine or protriptyline and possibly other tricyclics cause striking and sustained increases in the concentration of d-amphetamine in the brain; cardiovascular effects can be potentiated.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcd65e-8b11-c15e-e063-6294a90a0d45">
+                           <id root="5d539ac1-4a65-466c-a0fc-f3ee452c775d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Antihistamines</content>
+                           </title>
+                           <text>
+                              <paragraph>Amphetamines may counteract the sedative effect of antihistamines.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcc437-ca0d-5c34-e063-6394a90ac2ea">
+                           <id root="cb917a49-0e7a-4566-a7d7-8649b1f041f8"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Antihypertensives</content>
+                           </title>
+                           <text>
+                              <paragraph>Amphetamines may antagonize the hypotensive effects of antihypertensives.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcc8b3-ab6b-1298-e063-6394a90a053b">
+                           <id root="76885f61-b9a4-4fcb-a02f-252c66b31303"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Chlorpromazine</content>
+                           </title>
+                           <text>
+                              <paragraph>Chlorpromazine blocks dopamine and norepinephrine reuptake, thus inhibiting the central stimulant effects of amphetamines, and can be used to treat amphetamine poisoning.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddced58-48b9-7394-e063-6294a90a654c">
+                           <id root="4ab5c388-086d-4acd-9943-7d833c3b5f3f"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Ethosuximide</content>
+                           </title>
+                           <text>
+                              <paragraph>Amphetamines may delay intestinal absorption of ethosuximide.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcce03-6569-5f8d-e063-6394a90afa46">
+                           <id root="7e059a7b-7518-4e30-adc3-e0d85f0186be"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Haloperidol</content>
+                           </title>
+                           <text>
+                              <paragraph>Haloperidol blocks dopamine and norepinephrine reuptake, thus inhibiting the central stimulant effects of amphetamines.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcf7be-2575-973e-e063-6394a90ab6c8">
+                           <id root="8385d2fd-780b-4e01-b27c-4c2f208e6aff"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Lithium Carbonate</content>
+                           </title>
+                           <text>
+                              <paragraph>The stimulatory effects of amphetamines may be inhibited by lithium carbonate.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcc437-ca11-5c34-e063-6394a90ac2ea">
+                           <id root="fbf7ab34-7b79-444b-a8f7-ea22a80de6a9"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Meperidine</content>
+                           </title>
+                           <text>
+                              <paragraph>Amphetamines potentiate the analgesic effect of meperidine.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcf7be-2577-973e-e063-6394a90ab6c8">
+                           <id root="27f55987-f0ed-49ce-baa0-274c7fbcc43f"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Methenamine Therapy</content>
+                           </title>
+                           <text>
+                              <paragraph>Urinary excretion of amphetamines is increased, and efficacy is reduced, by acidifying agents used in methenamine therapy.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcfb53-d590-5ea6-e063-6394a90a4874">
+                           <id root="e175c3ee-507f-4217-b0e1-93e10f107b6d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Norepinephrine</content>
+                           </title>
+                           <text>
+                              <paragraph>Amphetamines enhance the adrenergic effect of norepinephrine.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcef68-2d14-ae58-e063-6394a90a51dd">
+                           <id root="d233693f-571c-4473-9a48-5cb4bc224cc4"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Phenobarbital</content>
+                           </title>
+                           <text>
+                              <paragraph>Amphetamines may delay intestinal absorption of phenobarbital; co-administration of phenobarbital may produce a synergistic anticonvulsant action.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcd65e-8b13-c15e-e063-6294a90a0d45">
+                           <id root="20a811ca-ce17-4aee-be80-a2b7ac8a3e77"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Phenytoin</content>
+                           </title>
+                           <text>
+                              <paragraph>Amphetamines may delay intestinal absorption of phenytoin; co-administration of phenytoin may produce a synergistic anticonvulsant action.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcc437-ca15-5c34-e063-6394a90ac2ea">
+                           <id root="f496bbf3-5dda-4afc-a9c5-55652c5e9d4a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Propoxyphene</content>
+                           </title>
+                           <text>
+                              <paragraph>In cases of propoxyphene overdosage, amphetamine CNS stimulation is potentiated and fatal convulsions can occur.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcf7be-2579-973e-e063-6394a90ab6c8">
+                           <id root="cff39b7a-2cb4-4f20-aa46-b05cd73451e8"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Veratrum Alkaloids</content>
+                           </title>
+                           <text>
+                              <paragraph>Amphetamines inhibit the hypotensive effect of veratrum alkaloids.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="c8d5e583-5a09-49bd-82e8-b00f6d22b223"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interactions</title>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Amphetamines can cause a significant elevation in plasma corticosteroid levels. This increase is greatest in the evening.</item>
+                           <item>Amphetamines may interfere with urinary steroid determinations.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="fb990e16-6227-4795-8fde-b42d4edcb27c"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis/Mutagenesis</title>
+                     <text>
+                        <paragraph>Mutagenicity studies and long-term studies in animals to determine the carcinogenic potential of dextroamphetamine sulfate have not been performed.</paragraph>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="00ad39e0-49b4-4bee-9f9b-0844f9e00220"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20231115"/>
+                     <component>
+                        <section ID="id_link_1ddcf7be-257b-973e-e063-6394a90ab6c8">
+                           <id root="773e0c3c-ec60-4e86-a0e1-226a55adbfac"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>
+                              <content styleCode="italics">Teratogenic Effects</content>
+                           </title>
+                           <effectiveTime value="20231115"/>
+                           <component>
+                              <section ID="id_link_1ddcfb53-d592-5ea6-e063-6394a90a4874">
+                                 <id root="b588e55b-1545-4937-975e-51171413083b"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>
+                                    <content styleCode="italics">Pregnancy Category C</content>
+                                 </title>
+                                 <text>
+                                    <paragraph>Dextroamphetamine has been shown to have embryotoxic and teratogenic effects when administered to A/Jax mice and C57BL mice in doses approximately 41 times the maximum human dose. Embryotoxic effects were not seen in New Zealand white rabbits given the drug in doses 7 times the human dose nor in rats given 12.5 times the maximum human dose. While there are no adequate and well-controlled studies in pregnant women, there has been one report of severe congenital bony deformity, tracheoesophageal fistula, and anal atresia (Vater association) in a baby born to a woman who took dextroamphetamine sulfate with lovastatin during the first trimester of pregnancy. Dextroamphetamine should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20231115"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddcef68-2d16-ae58-e063-6394a90a51dd">
+                           <id root="d686dd56-d838-448e-b016-b55ee5791820"/>
+                           <code code="34078-6" codeSystem="2.16.840.1.113883.6.1" displayName="NONTERATOGENIC EFFECTS SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Nonteratogenic Effects</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Infants born to mothers dependent on amphetamines have an increased risk of premature delivery and low birth weight. Also, these infants may experience symptoms of withdrawal as demonstrated by dysphoria, including agitation, and significant lassitude.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="b8d50f57-5239-4c82-828b-d687fe954fa5"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Amphetamines are excreted in human milk. Mothers taking amphetamines should be advised to refrain from nursing.</paragraph>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="PU">
+                     <id root="da504597-d930-4231-98fb-80c95b9c73dd"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Long-term effects of amphetamines in pediatric patients have not been well established.</paragraph>
+                        <paragraph>Amphetamines are not recommended for use in pediatric patients under 3 years of age with Attention Deficit Disorder with Hyperactivity described under INDICATIONS AND USAGE.</paragraph>
+                        <paragraph>Clinical experience suggests that in psychotic pediatric patients, administration of amphetamines may exacerbate symptoms of behavior disturbance and thought disorder.</paragraph>
+                        <paragraph>Amphetamines have been reported to exacerbate motor and phonic tics and Tourette's syndrome. Therefore, clinical evaluation for tics and Tourette's syndrome in pediatric patients and their families should precede use of stimulant medications.</paragraph>
+                        <paragraph>Data are inadequate to determine whether chronic administration of amphetamines may be associated with growth inhibition; therefore, growth should be monitored during treatment.</paragraph>
+                        <paragraph>Drug treatment is not indicated in all cases of Attention Deficit Disorder with Hyperactivity and should be considered only in light of the complete history and evaluation of the pediatric patient. The decision to prescribe amphetamines should depend on the physician's assessment of the chronicity and severity of the pediatric patient's symptoms and their appropriateness for his/her age. Prescription should not depend solely on the presence of one or more of the behavioral characteristics.</paragraph>
+                        <paragraph>When these symptoms are associated with acute stress reactions, treatment with amphetamines is usually not indicated.</paragraph>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="41b70e53-4176-436e-8939-550197476eba"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <effectiveTime value="20231115"/>
+               <component>
+                  <section>
+                     <id root="896229f4-a9af-4491-9894-9db8770e26aa"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cardiovascular</title>
+                     <text>
+                        <paragraph>Palpitations, tachycardia, elevation of blood pressure. There have been isolated reports of cardiomyopathy associated with chronic amphetamine use.</paragraph>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="9c9590fa-92d0-43a2-9688-aca9b7e4df8b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Central Nervous System</title>
+                     <text>
+                        <paragraph>Psychotic episodes at recommended doses (rare), overstimulation, restlessness, dizziness, insomnia, euphoria, dyskinesia, dysphoria, tremor, headache, exacerbation of motor and verbal tics and Tourette's syndrome.</paragraph>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="a5730cc9-7f8f-4f0f-8b66-b087edbcfa85"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gastrointestinal</title>
+                     <text>
+                        <paragraph>Dryness of the mouth, unpleasant taste, diarrhea, constipation, intestinal ischemia, and other gastrointestinal disturbances. Anorexia and weight loss may occur as undesirable effects.</paragraph>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="e20ad938-156f-43fb-b67b-3a9f6a90a89d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Allergic</title>
+                     <text>
+                        <paragraph>Urticaria.</paragraph>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="8c9c657b-f1a2-46dc-a9d3-e444b8224029"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Endocrine</title>
+                     <text>
+                        <paragraph>Impotence, changes in libido, frequent or prolonged erections.</paragraph>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="058e9e6c-a661-4eea-a5c0-f2c09c0fd085"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Musculoskeletal</title>
+                     <text>
+                        <paragraph>Rhabdomyolysis.</paragraph>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="DAaD">
+               <id root="24a0460d-38cd-49f3-9953-b06fa6a3cb60"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE</title>
+               <text>
+                  <paragraph>Dextroamphetamine sulfate tablets are a Schedule II controlled substance.</paragraph>
+               </text>
+               <effectiveTime value="20231115"/>
+               <component>
+                  <section>
+                     <id root="14ccef22-dc70-4514-a13f-8381a165756b"/>
+                     <code code="34086-9" codeSystem="2.16.840.1.113883.6.1" displayName="ABUSE SECTION"/>
+                     <title>Abuse</title>
+                     <text>
+                        <paragraph>Dextroamphetamine sulfate has a high potential for abuse and misuse which can lead to the development of a substance use disorder, including addiction (see
+ 
+  <linkHtml href="#warn">WARNINGS</linkHtml>). Dextroamphetamine sulfate can be diverted for non-medical use into illicit channels or distribution.
+
+ </paragraph>
+                        <paragraph>Abuse is the intentional non-therapeutic use of a drug, even once, to achieve a desired psychological or physiological effect. Misuse is the intentional use, for therapeutic purposes, of a drug by an individual in a way other than prescribed by a health care provider or for whom it was not prescribed. Drug addiction is a cluster of behavioral, cognitive, and physiological phenomena that may include a strong desire to take the drug, difficulties in controlling drug use (e.g., continuing drug use despite harmful consequences, giving a higher priority to drug use than other activities and obligations), and possible tolerance or physical dependence.</paragraph>
+                        <paragraph>Misuse and abuse of amphetamines may cause increased heart rate, respiratory rate, or blood pressure; sweating; dilated pupils; hyperactivity; restlessness; insomnia; decreased appetite; loss of coordination; tremors; flushed skin; vomiting; and/or abdominal pain. Anxiety, psychosis, hostility, aggression, and suicidal or homicidal ideation have also been observed with CNS stimulants abuse and/or misuse. Misuse and abuse of CNS stimulants, including dextroamphetamine sulfate, can result in overdose and death (see
+ 
+  <linkHtml href="#OD">OVERDOSAGE</linkHtml>), and this risk is increased with higher doses or unapproved methods of administration, such as snorting or injection.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="82116bc2-dda7-418a-afa0-109f103d8e44"/>
+                     <code code="34087-7" codeSystem="2.16.840.1.113883.6.1" displayName="DEPENDENCE SECTION"/>
+                     <title>Dependence</title>
+                     <effectiveTime value="20231115"/>
+                     <component>
+                        <section ID="id_link_1ddd06c0-159b-ef1e-e063-6394a90a88a5">
+                           <id root="280df403-aa83-4344-9fa4-417ca5ed7e7b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Physical Dependence</content>
+                           </title>
+                           <text>
+                              <paragraph>Dextroamphetamine sulfate may produce physical dependence. Physical dependence is a state that develops as a result of physiological adaptation in response to repeated drug use, manifested by withdrawal signs and symptoms after abrupt discontinuation or a significant dose reduction of a drug.</paragraph>
+                              <paragraph>Withdrawal signs and symptoms after abrupt discontinuation or dose reduction following prolonged use of CNS stimulants including dextroamphetamine sulfate include dysphoric mood; depression; fatigue; vivid, unpleasant dreams; insomnia or hypersomnia; increased appetite; and psychomotor retardation or agitation.</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="id_link_1ddd077e-744e-971e-e063-6394a90af266">
+                           <id root="2769498a-4356-4364-87dc-9b176dc06fc4"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Tolerance</content>
+                           </title>
+                           <text>
+                              <paragraph>Dextroamphetamine sulfate may produce tolerance. Tolerance is a physiological state characterized by a reduced response to a drug after repeated administration (i.e., a higher dose of a drug is required to produce the same effect that was once obtained at a lower dose).</paragraph>
+                           </text>
+                           <effectiveTime value="20231115"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="OD">
+               <id root="66d559c4-c425-4224-ae1c-d7a8a46d665e"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <effectiveTime value="20231115"/>
+               <component>
+                  <section ID="id_link_1ddce4e1-0737-b157-e063-6394a90a24fb">
+                     <id root="70be64a4-5223-4f12-afaf-64d255b34031"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Clinical Effects of Overdose</content>
+                     </title>
+                     <text>
+                        <paragraph>Overdose of CNS stimulants is characterized by the following sympathomimetic effects:</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Cardiovascular effects including tachyarrhythmias, and hypertension or hypotension. Vasospasm, myocardial infarction, or aortic dissection may precipitate sudden cardiac death. Takotsubo cardiomyopathy may develop.</item>
+                           <item>CNS effects including psychomotor agitation, confusion, and hallucinations. Serotonin syndrome, seizures, cerebral vascular accidents, and coma may occur.</item>
+                           <item>Life-threatening hyperthermia (temperatures greater than 104°F) and rhabdomyolysis may develop.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_1ddcd65e-8b16-c15e-e063-6294a90a0d45">
+                     <id root="e2f37753-4a39-4601-bc0b-3fb89bffef53"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Overdose Management</content>
+                     </title>
+                     <text>
+                        <paragraph>Consider the possibility of multiple drug ingestion. D-amphetamine is not dialyzable. Consider contacting the Poison Help line (1-800-222-1222) or a medical toxicologist for additional overdose management recommendations.</paragraph>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c4e961ac-b739-4628-9365-1ad824e60472"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Amphetamines should be administered at the lowest effective dosage and dosage should be individually adjusted. Late evening doses should be avoided because of the resulting insomnia.</paragraph>
+               </text>
+               <effectiveTime value="20231115"/>
+               <component>
+                  <section>
+                     <id root="a310d890-e141-466c-b278-0e3c72edb370"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Narcolepsy</title>
+                     <text>
+                        <paragraph>Usual dose is 5 to 60 mg per day in divided doses, depending on the individual patient response.</paragraph>
+                        <paragraph>Narcolepsy seldom occurs in children under 12 years of age; however, when it does, dextroamphetamine sulfate may be used. The suggested initial dose for patients aged 6 to 12 is 5 mg daily; daily dose may be raised in increments of 5 mg at weekly intervals until optimal response is obtained. In patients 12 years of age and older, start with 10 mg daily; daily dosage may be raised in increments of 10 mg at weekly intervals until an optimal response is obtained. If bothersome adverse reactions appear (e.g., insomnia or anorexia), dosage should be reduced. Give first dose on awakening; additional doses (1 or 2) at intervals of 4 to 6 hours.</paragraph>
+                     </text>
+                     <effectiveTime value="20240719"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="c84fa0bb-541e-4568-b9fa-ef5245672f86"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Attention Deficit Disorder with Hyperactivity</title>
+                     <text>
+                        <paragraph>Not recommended for pediatric patients under 3 years of age.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">In pediatric patients from 3 to 5 years of age,</content>start with 2.5 mg daily; daily dosage may be raised in increments of 2.5 mg at weekly intervals until optimal response is obtained.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">In pediatric patients 6 years of age and older,</content>start with 5 mg once or twice daily; daily dosage may be raised in increments of 5 mg at weekly intervals until optimal response is obtained. Only in rare cases will it be necessary to exceed a total of 40 mg per day.
+
+ </paragraph>
+                        <paragraph>Give first dose on awakening; additional doses (1 or 2) at intervals of 4 to 6 hours.</paragraph>
+                        <paragraph>Where possible, drug administration should be interrupted occasionally to determine if there is a recurrence of behavioral symptoms sufficient to require continued therapy.</paragraph>
+                        <paragraph>Prior to treating patients with dextroamphetamine sulfate tablets assess:</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>for the presence of cardiac disease (i.e., perform a careful history, family history of sudden death or ventricular arrhythmia, and physical exam) (see
+  
+   <linkHtml href="#warn">WARNINGS</linkHtml>).
+ 
+  </item>
+                           <item>the family history and clinically evaluate patients for motor or verbal tics or Tourette's syndrome (see
+  
+   <linkHtml href="#warn">WARNINGS</linkHtml>).
+ 
+  </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20231115"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="505449ab-0ade-4c5b-97b2-07efc073a7ad"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Dextroamphetamine sulfate tablets, USP are supplied as follows:</paragraph>
+                  <paragraph>20 mg - Purple, capsule-shaped tablet, debossed "20" on one side and "MIA" on the other side.</paragraph>
+                  <list listType="unordered">
+                     <item>NDC 72162-2352-3: 30 Tablets in a BOTTLE</item>
+                  </list>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F); excursions permitted 15° to 30°C (59° to 86°F). [See USP Controlled Room Temperature]</paragraph>
+                  <paragraph>Dispense in a tight, light-resistant container as defined in the USP, with a child-resistant closure (as required).</paragraph>
+                  <paragraph>KEEP THIS AND ALL MEDICATIONS OUT OF THE REACH OF CHILDREN.</paragraph>
+                  <paragraph>Repackaged/Relabeled by:<br/>Bryant Ranch Prepack, Inc.<br/>Burbank, CA 91504</paragraph>
+               </text>
+               <effectiveTime value="20240830"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4e05788e-5f1e-4712-b76c-986980984d8c"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>DEA Order Form Required.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pharmacist: Medication Guide to be dispensed to Patients.</content>
+                  </paragraph>
+                  <paragraph>Manufactured for: 
+  <br/>  Wilshire Pharmaceuticals, Inc. 
+  <br/>  Atlanta, GA 30328
+ </paragraph>
+                  <paragraph>DEX-PI-12  Rev. MAR2024</paragraph>
+               </text>
+               <effectiveTime value="20240301"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1ddce4e1-0739-b157-e063-6394a90a24fb">
+               <id root="b12166e7-7136-4d63-9174-339040e2cbbe"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <text>
+                  <table width="100%">
+                     <colgroup>
+                        <col align="left" valign="top" width="2%"/>
+                        <col align="left" valign="top" width="22%"/>
+                        <col align="left" valign="top" width="20%"/>
+                        <col align="left" valign="top" width="12%"/>
+                        <col align="left" valign="top" width="44%"/>
+                     </colgroup>
+                     <tfoot>
+                        <tr>
+                           <td align="left" colspan="5" valign="top">This Medication Guide has been approved by the U.S. Food and Drug Administration.</td>
+                        </tr>
+                        <tr>
+                           <td align="left"/>
+                           <td align="left"/>
+                           <td align="left"/>
+                           <td align="left"/>
+                           <td align="left"/>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr styleCode="Botrule First">
+                           <td align="center" colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">MEDICATION GUIDE</content>
+                              <br/>
+                              <content styleCode="bold">Dextroamphetamine Sulfate Tablets, USP CII</content>
+                              <br/>
+                              <content styleCode="bold">(dex" troe am fet´ a meen sul´ fate)</content>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td align="left" colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">What is the most important information I should know about</content> dextroamphetamine sulfate tablets?
+     <br/>
+                              <content styleCode="bold">Dextroamphetamine sulfate tablets may cause serious side effects, including:</content>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>
+                                    <content styleCode="bold">Abuse, misuse, and addiction. </content>Dextroamphetamine sulfate tablets have a high chance for abuse and misuse and may lead to substance use problems, including addiction. Misuse and abuse of dextroamphetamine sulfate tablets, other-amphetamine containing medicines, and methylphenidate containing medicines, can lead to overdose and death. The risk of overdose and death is increased with higher doses of dextroamphetamine sulfate tablets or when they are used in ways that are not approved, such as snorting or injection.
+				
+       <list listType="unordered" styleCode="Circle">
+                                       <item>Your healthcare provider should check you or your child's risk for abuse, misuse, and addiction before starting treatment with dextroamphetamine sulfate tablets and will monitor you or your child during treatment.</item>
+                                       <item>Dextroamphetamine sulfate tablets may lead to physical dependence after prolonged use, even if taken as directed by your healthcare provider.</item>
+                                       <item>Do not give dextroamphetamine sulfate tablets to anyone else. See " 
+         <content styleCode="bold">What are dextroamphetamine sulfate tablets</content>?" for more information.
+        </item>
+                                       <item>Keep dextroamphetamine sulfate tablets in a safe place and properly dispose of any unused medicine. See " 
+         <content styleCode="bold">How should I store dextroamphetamine sulfate tablets?</content>" for more information.
+        </item>
+                                       <item>Tell your healthcare provider if you or your child have ever abused or been dependent on alcohol, prescription medicines, or street drugs.</item>
+                                    </list>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">Risks for people with serious heart disease:</content> Sudden death has happened in people who have heart defects or other serious heart disease.
+       <br/>
+				Your healthcare provider should check you or your child carefully for heart problems before starting treatment with dextroamphetamine sulfate tablets. Tell your healthcare provider if you or your child have any heart problems, heart disease, or heart defects.
+       <br/>
+                                    <content styleCode="bold">Call your healthcare provider right away or go to the nearest hospital emergency room right away if you or your child have any signs of heart problems such as chest pain, shortness of breath, or fainting during treatment with dextroamphetamine sulfate tablets.</content>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">Increased blood pressure and heart rate.</content>
+                                    <br/>
+				Your healthcare provider should check you or your child's blood pressure and heart rate regularly during treatment with dextroamphetamine sulfate tablets.
+      </item>
+                                 <item>
+                                    <content styleCode="bold">Mental (psychiatric) problems, including:</content>
+                                    <list listType="unordered" styleCode="Circle">
+                                       <item>new or worse behavior or thought problems.</item>
+                                       <item>new or worse bipolar illness.</item>
+                                       <item>new psychotic symptoms (such as hearing voices or seeing or believing things that are not real) or new manic symptoms.</item>
+                                    </list>
+				Tell your healthcare provider about any mental problems you or your child have, or about a family history of suicide, bipolar illness, or depression.
+       <br/>
+                                    <content styleCode="bold">Call your healthcare provider right away if you or your child have any new or worsening mental symptoms or problems during treatment with dextroamphetamine sulfate tablets, especially hearing voices, seeing or believing things that are not real, or new manic symptoms.</content>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td align="left" colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">What are dextroamphetamine sulfate tablets?</content>
+                              <br/>
+			Dextroamphetamine sulfate tablets are central nervous system (CNS) stimulant prescription medicines used for the treatment of:
+			
+     <list listType="unordered" styleCode="Disc">
+                                 <item>a sleep disorder called narcolepsy.</item>
+                                 <item>Attention-Deficit Hyperactivity Disorder (ADHD) in children 3 to 16 years of age. Dextroamphetamine sulfate tablets may help increase attention and decrease impulsiveness and hyperactivity in people with ADHD.</item>
+                              </list>
+			It is not known if dextroamphetamine sulfate tablets are safe and effective in children under 3 years of age.
+     <br/>
+                              <content styleCode="bold">Dextroamphetamine sulfate is a federally controlled substance (CII) because it contains dextroamphetamine that can be a target for people who abuse prescription medicines or street drugs.</content> Keep dextroamphetamine sulfate tablets in a safe place to protect it from theft. Never give your dextroamphetamine sulfate tablets to anyone else because they may cause death or harm them. Selling or giving away dextroamphetamine sulfate tablets may harm others and is against the law.
+    </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td align="left" colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">Do not take dextroamphetamine sulfate tablets if you or your child:</content>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>are allergic to amphetamine products or any of the ingredients in dextroamphetamine sulfate tablets. See the end of this Medication Guide for a complete list of ingredients in dextroamphetamine sulfate tablets.</item>
+                                 <item>are taking or have taken within the past 14 days, a medicine used to treat depression called a monoamine oxidase inhibitor (MAOI), including the antibiotic linezolid or the intravenous medicine methylene blue.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">Before taking dextroamphetamine sulfate tablets, tell your healthcare provider about all of your or your child's medical conditions, including if you or your child:</content>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>have heart problems, heart disease, heart defects, or high blood pressure.</item>
+                                 <item>have mental problems including psychosis, mania, bipolar illness, or depression, or have a family history of suicide, bipolar illness, or depression.</item>
+                                 <item>have seizures or have had an abnormal brain wave test (EEG).</item>
+                                 <item>have circulation problems in fingers and toes.</item>
+                                 <item>have or had repeated movements or sounds (tics) or Tourette's syndrome, or have a family history of tics or Tourette's syndrome.</item>
+                                 <item>are pregnant or plan to become pregnant. It is not known if dextroamphetamine sulfate tablets will harm the unborn baby. Tell your healthcare provider if you or your child become pregnant during treatment with dextroamphetamine sulfate tablets.</item>
+                                 <item>are breastfeeding or plan to breastfeed. Dextroamphetamine sulfate tablets passes into breast milk. You or your child should not breastfeed during treatment with dextroamphetamine sulfate tablets. Talk to your healthcare provider about the best way to feed the baby during treatment with dextroamphetamine sulfate tablets.</item>
+                              </list>
+                              <content styleCode="bold">Tell your healthcare provider about all of the medicines that you or your child take</content>, including prescription and over-the-counter medicines, vitamins, and herbal supplements.
+     <br/>
+			Dextroamphetamine sulfate tablets and some medicines may interact with each other and cause serious side effects. Sometimes the doses of other medicines will need to be changed during treatment with dextroamphetamine sulfate tablets. Your healthcare provider will decide if dextroamphetamine sulfate tablets can be taken with other medicines.
+     <br/>
+                              <content styleCode="bold">Especially tell your healthcare provider if you or your child take:</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="3" styleCode="Lrule">
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>selective serotonin reuptake inhibitors (SSRIs)</item>
+                                 <item>medicines used to treat migraine headaches called triptans</item>
+                                 <item>lithium</item>
+                                 <item>tramadol</item>
+                                 <item>buspirone</item>
+                              </list>
+                           </td>
+                           <td align="left" colspan="2" styleCode="Rrule">
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>serotonin norepinephrine reuptake inhibitors (SNRIs)</item>
+                                 <item>tricyclic antidepressants</item>
+                                 <item>fentanyl</item>
+                                 <item>tryptophan</item>
+                                 <item>St. John's Wort</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td align="left" colspan="5" styleCode="Lrule Rrule">Know the medicines that you or your child take. Keep a list of your or your child's medicines with you to show your healthcare provider and pharmacist when you or your child get a new medicine.  
+     <content styleCode="bold">Do not start any new medicine during treatment with dextroamphetamine sulfate tablets without talking to your healthcare provider first.</content>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td align="left" colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">How should dextroamphetamine sulfate tablets be taken?</content>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>Take dextroamphetamine sulfate tablets exactly as prescribed by your or your child's healthcare provider.</item>
+                                 <item>Your healthcare provider may change the dose if needed.</item>
+                                 <item>Dextroamphetamine sulfate tablets is usually taken two to three times a day. The first dose is usually taken in the morning. One or two more doses may be taken during the day, 4 to 6 hours apart.</item>
+                              </list>
+			If you or your child take too much dextroamphetamine sulfate tablets, call your healthcare provider or Poison Help line at 1-800-222-1222 or go to the nearest hospital emergency room right away.
+    </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td align="left" colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">What should I avoid while taking dextroamphetamine sulfate tablets?</content>
+                              <br/>
+			Do not drive, operate heavy machinery, or do other potentially dangerous activities until you know how dextroamphetamine sulfate tablets affects you.
+    </td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">What are possible side effects of dextroamphetamine sulfate tablets?</content>
+                              <br/>
+                              <content styleCode="bold">Dextroamphetamine sulfate tablets may cause serious side effects, including:</content>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>See " 
+       <content styleCode="bold">What is the most important information I should know about dextroamphetamine sulfate tablets?</content>"
+      </item>
+                                 <item>
+                                    <content styleCode="bold">Slowing of growth (height and weight)</content>in children. Children should have their height and weight checked often during treatment with dextroamphetamine sulfate tablets. Your healthcare provider may stop your child's dextroamphetamine sulfate tablets treatment if they are not growing or gaining weight as expected.
+      </item>
+                                 <item>
+                                    <content styleCode="bold">Seizures</content>. Your healthcare provider may stop treatment with Adderall if you or your child have a seizure.
+      </item>
+                                 <item>
+                                    <content styleCode="bold">Circulation problems in fingers and toes (peripheral vasculopathy, including Raynaud's phenomenon). Signs and symptoms may include:</content>
+                                    <list listType="unordered" styleCode="Circle">
+                                       <item>fingers or toes may feel numb, cool, painful.</item>
+                                       <item>fingers or toes may change color from pale, to blue, to red.</item>
+                                    </list>
+				Tell your healthcare provider if you or your child have numbness, pain, skin color change, or sensitivity to temperature in your fingers or toes.
+       <br/>
+                                    <content styleCode="bold">Call your healthcare provider right away if you or your child have any signs of unexplained wounds appearing on fingers or toes during treatment with dextroamphetamine sulfate tablets.</content>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">New or worsening tics or worsening Tourette's syndrome. </content>Tell your healthcare provider if you or your child get any new or worsening tics or worsening Tourette's syndrome during treatment with dextroamphetamine sulfate tablets.
+      </item>
+                                 <item>
+                                    <content styleCode="bold">Serotonin syndrome.</content> This problem may happen when dextroamphetamine sulfate tablets are taken with certain other medicines and may be life-threatening. Stop taking dextroamphetamine sulfate tablets and call your healthcare provider or go to the nearest hospital emergency room right away if you or your child develop any of the following signs and symptoms of serotonin syndrome:
+      </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" styleCode="Lrule"/>
+                           <td align="left" colspan="2">
+                              <list listType="unordered" styleCode="Circle">
+                                 <item>agitation</item>
+                                 <item>fast heartbeat</item>
+                                 <item>flushing</item>
+                                 <item>seizures</item>
+                                 <item>coma</item>
+                                 <item>sweating</item>
+                                 <item>loss of coordination</item>
+                              </list>
+                           </td>
+                           <td align="left" colspan="2" styleCode="Rrule">
+                              <list listType="unordered" styleCode="Circle">
+                                 <item>confusion</item>
+                                 <item>dizziness</item>
+                                 <item>tremors, stiff muscles, or muscle twitching</item>
+                                 <item>seeing or hearing things that are not real (hallucination)</item>
+                                 <item>changes in blood pressure</item>
+                                 <item>high body temperature (hypothermia)</item>
+                                 <item>nausea, vomiting, diarrhea</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">The most common side effects of dextroamphetamine sulfate tablets include:</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="2" styleCode="Lrule">
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>fast heartbeat</item>
+                                 <item>decreased appetite</item>
+                                 <item>tremors</item>
+                              </list>
+                           </td>
+                           <td align="left" colspan="2">
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>headache</item>
+                                 <item>trouble sleeping</item>
+                                 <item>dizziness</item>
+                              </list>
+                           </td>
+                           <td align="left" styleCode="Rrule">
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>stomach upset</item>
+                                 <item>weight loss</item>
+                                 <item>dry mouth</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td align="left" colspan="5" styleCode="Lrule Rrule">These are not all of the possible side effects of dextroamphetamine sulfate tablets.
+     <br/>
+			Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.
+     <br/>
+			You may also report side effects to Wilshire Pharmaceuticals, Inc. at 1-877-495-6856.
+    </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td align="left" colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">How should I store dextroamphetamine sulfate tablets?</content>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>Store dextroamphetamine sulfate tablets at room temperature between 68° to 77°F (20° to 25°C).</item>
+                                 <item>Store dextroamphetamine sulfate tablets in a safe place, like a locked cabinet. Protect from light.</item>
+                                 <item>Dispose of remaining, unused, or expired dextroamphetamine sulfate tablets by a medicine take back program at a U.S. Drug Enforcement Administration (DEA) authorized collection site. If no take back program or DEA authorized collector is available, mix dextroamphetamine sulfate tablets with an undesirable, nontoxic substance such as dirt, cat litter, or used coffee grounds to make it less appealing to children and pets. Place the mixture in a container such as a sealed plastic bag and throw away dextroamphetamine sulfate tablets in the household trash. Visit www.fda.gov/drugdisposal for additional information on disposal of unused medicines.</item>
+                              </list>
+                              <content styleCode="bold">Keep dextroamphetamine sulfate tablets and all medicines out of the reach of children.</content>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td align="left" colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">General information about the safe and effective use of dextroamphetamine sulfate tablets.</content>
+                              <br/>
+			Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use dextroamphetamine sulfate tablets for a condition for which they were not prescribed. Do not give dextroamphetamine sulfate tablets to other people, even if they have the same symptoms that you or your child have. It may harm them and it is against the law. You can ask your pharmacist or healthcare provider for information about dextroamphetamine sulfate tablets that is written for health professionals. For more information about dextroamphetamine sulfate tablets you may also contact Wilshire Pharmaceuticals, Inc. at 1-877-495-6856.
+    </td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">What are the ingredients in dextroamphetamine sulfate tablets?</content>
+                              <br/>
+                              <content styleCode="bold">Active ingredient:</content> dextroamphetamine sulfate
+     <br/>
+                              <content styleCode="bold">Inactive ingredients:</content> colloidal silicon dioxide, crospovidone, microcrystalline cellulose and stearic acid. The 5 mg tablets contain D&amp;C Red #27 and FD&amp;C Yellow #6. The 7.5 mg tablets contain FD&amp;C Blue #1 and D&amp;C Yellow #10. The 10 mg tablets contain FD&amp;C Red #40, FD&amp;C Yellow #6 and FD&amp;C Blue #2. The 15 mg tablets contain FD&amp;C Blue #1, FD&amp;C Blue #2, and FD&amp;C Red #40. The 20 mg tablets contain FD&amp;C Blue #1 and D&amp;C Red #27. The 30 mg tablets also contain D&amp;C Yellow #10.
+     <br/>
+			Manufactured for:
+     <br/>
+			WILSHIRE®
+     <br/>
+			PHARMACEUTICALS, INC
+     <br/>
+			Rev. 11/2023
+     <br/>
+			DEX-MG-09
+    </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240719"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ca9f4171-6124-4c37-801c-c9723b0de80a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Dextroamphetamine Sulfate Tablets 20 mg (CII)</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="mm63629"/>
+               </text>
+               <effectiveTime value="20240830"/>
+               <component>
+                  <observationMedia ID="mm63629">
+                     <text>Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lbl721622352.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

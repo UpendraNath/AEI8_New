@@ -1,0 +1,14 @@
+name: Structure Validation
+
+on: [push, pull_request]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check required folders
+        run: |
+          test -d deliverables || (echo "❌ Missing /deliverables folder" && exit 1)
+          test -f .cursor/rules/cert-challenge-evidence-map-rule-v4.mdc || (echo "❌ Missing Cursor rule" && exit 1)
+          echo "✅ Structure OK"
