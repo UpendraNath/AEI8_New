@@ -39,7 +39,21 @@ Run the repository and complete the following:
 Compare the `agent` and `agent_helpful` assistants defined in `langgraph.json`. Where does the helpfulness evaluator fit in the graph, and under what condition should execution route back to the agent vs. terminate?
 
 ##### ✅ Answer:
-_(enter answer here)_
+Agent assistant is simple flow with access to tools and no validation on the responses. For instance, i ran this query "What is temperature in Va beach today? When did we had similar weather in the previous month?"
+Response: "The current temperature in Virginia Beach today is approximately 62°F with plenty of sunshine.
+Regarding similar weather in the previous month, there were days with similar temperatures around 62-64°F, with mostly sunny to partly cloudy conditions. For example, on November 4th, the forecast predicted a high of 62°F with clear skies, which is quite similar to today's weather."
+
+The similar query might run posed to the "agent_helpful" yielded slightly different response, but still inaccurate.
+
+"Response : The current temperature in Virginia Beach today is approximately 62°F with plenty of sunshine.
+Regarding similar weather in the previous month, there was a day with similar conditions around November 1st, with temperatures around 62-63°F and sunny skies."
+
+Conclusion: The response of the simple agent is incorrect because its forecasting for future. So, the simple  agent may be suitable for single hop questions. Regarding "Agent with helpfulness" have slighlkty incorrect responses. This can be correct by adjuting prompt template to check for accuracy.
+
+Regarding second part of the question, when we ask "out of context" question to agent, its response includes information for more clarity, which is routed to "helpfulness" node. There was back and forth in same fashion for 3 times and then it ended. So, the conclusion, agent will be terminated after few attempts( in this case 3) incase unable to provide response.
+
+
+
 
 #### 🏗️ Activity #1 Debugging A Graph
 
@@ -50,9 +64,13 @@ Select the `agent_with_helpfulness` and set one or more interrupts (at least one
 What are your thoughts on when you would use a Before interrupt vs. an After interrupt?
 
 ##### ✅ Answer:
-_(enter answer here)_
+This feature is particularly useful in human-in-the-loop workflows where external input is required to proceed.
 
+Interrupt before: This is called at compile time and pauses execution before the specified node is executed. It is used to ensure that the graph is paused at a point where the user can make a decision or input before proceeding.
 
+Interrupt after: This is called at runtime and pauses execution after the specified node is executed. It is used to ensure that the graph is paused at a point where the user can make a decision or input before proceeding.
+
+These interrupts allow for dynamic control over the execution of the graph, enabling the user to interact with the graph at specific points. 
 
 <details>
 <summary>🚧 Advanced Build 🚧 (OPTIONAL - <i>open this section for the requirements</i>)</summary>
