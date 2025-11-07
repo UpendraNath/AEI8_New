@@ -88,6 +88,12 @@ Do this by creating a Simple Agent that can make API calls to the 🤖Agent Node
 What are the core components of an `AgentCard`?
 
 ##### ✅ Answer:
+- Identity & Description: Agent Name (e.g., "Hampton Hotel Agent") ;High-level Description of its   
+                         purpose;Version information.
+- Skills: A critical, detailed list of specific actions the agent can perform (e.g., book a room, get availability). This defines its functional scope.
+- Communication Specification: Defines the expected Inputs and Outputs formats (e.g., text, audio) for successful communication.
+- Capabilities: Declarations about advanced features it supports, such as Streaming (for real-time 
+              feedback) or Push Notifications (for asynchronous task updates).
 
 <br />
 
@@ -96,6 +102,11 @@ What are the core components of an `AgentCard`?
 Why is A2A (and other such protocols) important in your own words?
 
 ##### ✅ Answer:
+- Without a standard, every agent framework (ADK, CrewAI, LangGraph, etc.) creates its own proprietary way of communicating. This leads to agent silos, where Agent A built by Company X cannot understand Agent B built by Company Y
+- A2A protocols manage conversational state through Task IDs and Context IDs. This is essential for long-running jobs  where the agent needs to track progress over time.
+- The Agent Card mechanism allows new agents to easily "announce themselves" to the network. Existing agents can discover these new capabilities dynamically and begin collaborating without requiring new custom integration code.
+- Concepts like the Agent Executor standardize how any agent's internal logic is triggered, decoupling the core logic from the communication wrapper.
+
 
 <br /><br />
 
