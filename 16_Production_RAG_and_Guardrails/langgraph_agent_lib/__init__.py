@@ -4,7 +4,7 @@ A library for LangGraph agents with caching, monitoring, and agent integration.
 """
 
 from .agents import create_langgraph_agent
-from .caching import CacheBackedEmbeddings, setup_llm_cache
+from .caching import CacheBackedEmbeddings, setup_llm_cache, clear_embedding_cache
 from .rag import ProductionRAGChain
 from .models import get_openai_model
 
@@ -13,6 +13,7 @@ __all__ = [
     "create_langgraph_agent",
     "CacheBackedEmbeddings",
     "setup_llm_cache",
+    "clear_embedding_cache",
     "ProductionRAGChain",
     "get_openai_model",
 ]

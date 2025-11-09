@@ -92,8 +92,34 @@ class ProductionRAGChain:
             embedding=self.cached_embeddings.get_embeddings()
         )
         
-        # Add documents
-        self.vectorstore.add_documents(docs)
+        # Add documents with error handling for cache validation issues
+        try:
+            self.vectorstore.add_documents(docs)
+        except AssertionError as e:
+            if "Cached embedding does not match original embedding" in str(e):
+                # Clear corrupted cache and retry
+                import shutil
+                import os
+                cache_dir = f"{self.cache_dir}/embeddings"
+                if os.path.exists(cache_dir):
+                    shutil.rmtree(cache_dir)
+                    os.makedirs(cache_dir, exist_ok=True)
+                # Recreate embeddings instance with cleared cache
+                from .caching import CacheBackedEmbeddings
+                self.cached_embeddings = CacheBackedEmbeddings(
+                    model=self.embedding_model,
+                    cache_dir=f"{self.cache_dir}/embeddings"
+                )
+                # Update vector store with new embeddings
+                self.vectorstore = QdrantVectorStore(
+                    client=client,
+                    collection_name=self.collection_name,
+                    embedding=self.cached_embeddings.get_embeddings()
+                )
+                # Retry adding documents
+                self.vectorstore.add_documents(docs)
+            else:
+                raise
         
         # Create retriever
         self.retriever = self.vectorstore.as_retriever(

@@ -2,7 +2,8 @@
 
 import hashlib
 import os
-from typing import Optional
+from typing import Optional, List
+import numpy as np
 
 from langchain.embeddings import CacheBackedEmbeddings as LangChainCacheBackedEmbeddings
 from langchain.storage import LocalFileStore
@@ -39,6 +40,9 @@ class CacheBackedEmbeddings:
         safe_namespace = hashlib.md5(model.encode()).hexdigest()
         
         # Set up file store and cached embeddings
+        # Ensure cache directory exists
+        os.makedirs(cache_dir, exist_ok=True)
+        
         store = LocalFileStore(cache_dir)
         self.cached_embeddings = LangChainCacheBackedEmbeddings.from_bytes_store(
             self.base_embeddings, 
@@ -50,6 +54,51 @@ class CacheBackedEmbeddings:
     def get_embeddings(self):
         """Get the cached embeddings instance."""
         return self.cached_embeddings
+    
+    def validate_cache(self, text: str, tolerance: float = 1e-6) -> bool:
+        """Validate that cached embeddings match original embeddings.
+        
+        This method compares a cached embedding with a fresh embedding to ensure
+        cache integrity. Uses approximate equality to handle floating-point precision.
+        
+        Args:
+            text: Text to validate
+            tolerance: Tolerance for floating-point comparison (default: 1e-6)
+            
+        Returns:
+            True if embeddings match within tolerance, False otherwise
+        """
+        try:
+            # Get cached embedding
+            cached_embedding = self.cached_embeddings.embed_query(text)
+            
+            # Get fresh embedding from base model
+            fresh_embedding = self.base_embeddings.embed_query(text)
+            
+            # Compare using approximate equality
+            return np.allclose(cached_embedding, fresh_embedding, atol=tolerance)
+        except Exception as e:
+            # If validation fails, return False
+            return False
+
+
+def clear_embedding_cache(cache_dir: str = "./cache/embeddings") -> None:
+    """Clear the embedding cache directory.
+    
+    This can be useful if cached embeddings become corrupted or if you need
+    to force fresh embeddings to be generated.
+    
+    Args:
+        cache_dir: Directory containing the embedding cache
+    """
+    import shutil
+    if os.path.exists(cache_dir):
+        try:
+            shutil.rmtree(cache_dir)
+            os.makedirs(cache_dir, exist_ok=True)
+            print(f"✓ Cleared embedding cache at {cache_dir}")
+        except Exception as e:
+            print(f"⚠ Error clearing cache: {e}")
 
 
 def setup_llm_cache(cache_type: str = "memory", cache_path: Optional[str] = None):
