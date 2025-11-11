@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+ollama_deep_researcher.egg-info/PKG-INFO
+ollama_deep_researcher.egg-info/SOURCES.txt
+ollama_deep_researcher.egg-info/dependency_links.txt
+ollama_deep_researcher.egg-info/requires.txt
+ollama_deep_researcher.egg-info/top_level.txt
+src/ollama_deep_researcher/__init__.py
+src/ollama_deep_researcher/configuration.py
+src/ollama_deep_researcher/graph.py
+src/ollama_deep_researcher/init_rag.py
+src/ollama_deep_researcher/lmstudio.py
+src/ollama_deep_researcher/prompts.py
+src/ollama_deep_researcher/rag.py
+src/ollama_deep_researcher/state.py
+src/ollama_deep_researcher/utils.py
